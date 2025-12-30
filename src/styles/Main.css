@@ -11,10 +11,10 @@
   min-height: fit-content;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
   word-wrap: break-word;  
-  overflow-wrap: break-word;
   hyphens: auto;
 }
 
