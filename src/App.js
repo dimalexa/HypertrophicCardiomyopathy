@@ -1,41 +1,21 @@
-import heart from './heart.jpg';
-import './App.css';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import Main from './pages/Main';
+import DiseaseInfo from './pages/DiseaseInfo';
+import Treatment from './pages/Treatment';
+import LegalRights from './pages/LegalRights';
+import SCDCalculator from './pages/SCDCalculator';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={heart} className="Heart-logo" alt="logo" />
-        <div>
-        <div className="App-header-header-text">
-          <p>Гипертрофическая кардиомиопатия: Информация для пациентов</p>
-        </div>
-        <div className="App-header-text"> 
-          <p>Гипертрофическая кардиомиопатия (ГКМП) — аутосомно-доминантное заболевание, характеризующееся гипертрофией (утолщением) стенки левого и/или изредка правого желудочка. 
-            Гипертрофия чаще асимметричная, преимущественно поражается межжелудочковая перегородка. Характерно неправильное, хаотичное расположение мышечных волокон в миокарде. 
-            Часто (примерно в 60 % случаев) имеет место градиент систолического давления в выносящем тракте левого (редко — правого) желудочка. 
-          </p>
-        </div>
-        </div>
-      </header>
-      <div className="block">
-        <div className="block-header">
-          Немного о болезни
-        </div>
-        <hr className="line"></hr>
-        <div className="block-text">
-        Заболевание вызывается мутациями генов, 
-        кодирующих синтез сократительных белков миокарда. В настоящее время критерием ГКМП считается увеличение толщины миокарда свыше или равной 1,5 см при наличии диастолической 
-        дисфункции (нарушения расслабления) левого желудочка. Гипертрофическая кардиомиопатия поражает примерно одного из 500 человек. Уровни у мужчин и женщин примерно равны. 
-        Люди всех возрастов могут быть затронуты. Это заболевание является основной причиной гибели молодых спортсменов. От этой болезни прямо на поле скончались знаменитые 
-        футболисты Миклош Фехер и Марк Вивьен-Фоэ, а также погиб во время тренировки американский атлет Джесси Марунде.
-        </div>
-      </div>
-      <div className="block">
-        <p>
-        </p>
-      </div>
-    </div>
+     <HashRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="disease-info" element={<DiseaseInfo />} />
+        <Route path="treatment" element={<Treatment />} />
+        <Route path="legal-rights" element={<LegalRights />} />
+        <Route path="SCD-calculator" element={<SCDCalculator />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
