@@ -4,7 +4,7 @@ import '../styles/Main.css';
 
 export default function Main(){
     return (
-        <div>
+        <div >
             <HamburgerMenu />
             <div className="Main">
                 <div className="Main-header">

@@ -1,9 +1,9 @@
 import HamburgerMenu from './components/Menu';
-import './Main.css';
+import '../styles/LegalRights.css';
 
 export default function LegalRights(){
     return (
-        <div>
+        <div class="main">
              <HamburgerMenu />
         </div>
     );

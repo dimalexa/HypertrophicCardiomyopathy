@@ -1,9 +1,9 @@
 import HamburgerMenu from './components/Menu';
-import './Main.css';
+import '../styles/DiseaseInfo.css';
 
 export default function DiseaseInfo(){
     return (
-        <div>
+        <div class="main">
              <HamburgerMenu />
         </div>
     );

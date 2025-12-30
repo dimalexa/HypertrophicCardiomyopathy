@@ -1,9 +1,9 @@
 import HamburgerMenu from './components/Menu';
-import './Main.css';
+import '../styles/SCDCalculator.css';
 
 export default function SCDCalculator(){
     return (
-        <div>
+        <div class="main">
              <HamburgerMenu />
         </div>
     );

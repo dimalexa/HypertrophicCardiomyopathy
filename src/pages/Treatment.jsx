@@ -1,9 +1,9 @@
 import HamburgerMenu from './components/Menu';
-import './Main.css';
+import '../styles/Treatment.css';
 
 export default function Treatment(){
     return (
-        <div>
+        <div class="main">
              <HamburgerMenu />
         </div>
     );
