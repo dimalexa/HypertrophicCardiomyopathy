@@ -3,7 +3,7 @@
 }
 
 .Heart-logo {
-  width: 40%;
+  width: 30vw;
 }
 
 .Main-header {
@@ -13,15 +13,24 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
+  word-wrap: break-word;  
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .Main-header-text{
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
+  hyphens: auto;
   align-self: center;
   color: #696969;
   font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
 }
 
 .Main-header-header-text{
+  word-wrap: break-word;    
+  overflow-wrap: break-word;
+  hyphens: auto;
   align-self: center;
   color: #696969;
   font-size: 40px;
@@ -36,6 +45,9 @@
 }
 
 .block-text{
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
   padding: 20px 5px;
   color: white;
   font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
