@@ -15,7 +15,6 @@
   align-items: flex-start;
   justify-content: space-between;
   word-wrap: break-word;  
-  hyphens: auto;
 }
 
 .Main-header-text{
