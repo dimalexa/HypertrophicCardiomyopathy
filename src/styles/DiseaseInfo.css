@@ -83,6 +83,42 @@
   font-size: 25px;
 }
 
+@media (max-width: 769px){
+  .generalStyle{
+  font-size: 10px;
+  font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
+  }
+  .textHeaderWhite{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  }
+
+  .textHeaderGrey{
+    color: rgb(48, 47, 47);
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .textSubheaderWhite{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .textSubheaderGrey{
+    color: rgb(48, 47, 47);
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .textMiniheaderGrey{
+    color: rgb(48, 47, 47);
+    font-weight: bold;
+    font-size: 12px;
+  }
+}
+
 @font-face {
   font-family: "Montserrat Alternates"; 
   src: url("../data/fonts/Montserrat Alternates.ttf") format("truetype"); 
