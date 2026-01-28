@@ -86,7 +86,7 @@
 
 @media (max-width: 769px){
   .generalStyle{
-  font-size: 10px;
+  font-size: 15px;
   font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
   }
   .blockGrey{
@@ -134,19 +134,19 @@
   .textSubheaderWhite{
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .textSubheaderGrey{
     color: rgb(48, 47, 47);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .textMiniheaderGrey{
     color: rgb(48, 47, 47);
     font-weight: bold;
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
