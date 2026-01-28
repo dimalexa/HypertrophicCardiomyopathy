@@ -7,20 +7,20 @@
 }
 
 .Main-header {
-  max-width: 100%;
+  max-width: 100vw;
+  margin-left: 5vw;
   min-height: fit-content;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
   word-wrap: break-word;  
 }
 
 .Main-header-text{
+  margin-left: 5vw;
   word-wrap: break-word; 
   overflow-wrap: break-word;
-  hyphens: auto;
   align-self: center;
   color: #696969;
   font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
@@ -29,7 +29,6 @@
 .Main-header-header-text{
   word-wrap: break-word;    
   overflow-wrap: break-word;
-  hyphens: auto;
   align-self: center;
   color: #696969;
   font-size: 40px;

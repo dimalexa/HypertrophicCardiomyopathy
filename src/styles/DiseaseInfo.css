@@ -1,21 +1,86 @@
-.main{
-    padding-top: 100px;
-    background-color: #302e2e;
-    color: white;
-    height: 100vh;
-    font-size: 20px;
-    font-family:  "Comfortaa", "Helvetica", "Arial", sans-serif;
+.generalStyle{
+  font-size: 20px;
+  font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
 }
 
-.main-text{
-    padding: 100px;
-    background-color: #302e2e;
-    height: 100vh;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 24px;
-    font-family:  "Comfortaa", "Helvetica", "Arial", sans-serif;
+.blockGrey{
+  padding: 30px 100px;
+  background-color: #302e2e;
+  height: fit-content;
+}
+
+.blockRed{
+  padding-top: 100px;
+  padding-left: 100px;
+  background-color: #602121;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+
+.blockWhite{
+  padding: 30px 100px;
+  background-color: white;
+  height: fit-content;
+}
+
+.blockWithImage{
+  padding: 20px 100px;
+  background-color: hsl(0, 2%, 18%);
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  word-wrap: break-word;  
+}
+
+
+.imageStyle {
+  flex-grow: 1;
+  width: 300vw;
+  height: auto;
+}
+
+.textWhite{
+  flex-grow: 1;
+  margin-right: 10%;
+  color: white;
+}
+
+.textGrey{
+  flex-grow: 1;
+  margin-right: 10%;
+  color: rgb(48, 47, 47);
+}
+
+.textHeaderWhite{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.textHeaderGrey{
+  color: rgb(48, 47, 47);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.textSubheaderWhite{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.textSubheaderGrey{
+  color: rgb(48, 47, 47);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.textMiniheaderGrey{
+  color: rgb(48, 47, 47);
+  font-weight: bold;
+  font-size: 25px;
 }
 
 @font-face {
