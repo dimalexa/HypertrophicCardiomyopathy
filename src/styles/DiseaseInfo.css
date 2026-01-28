@@ -1,5 +1,6 @@
 .generalStyle{
   font-size: 20px;
+  word-wrap: break-word;
   font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
 }
 
@@ -87,6 +88,36 @@
   .generalStyle{
   font-size: 10px;
   font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
+  }
+  .blockGrey{
+  padding: 30px 10px;
+  background-color: #302e2e;
+  height: fit-content;
+  }
+
+  .blockRed{
+    padding-top: 80px;
+    padding-left: 10px;
+    background-color: #602121;
+    height: fit-content;
+    padding-bottom: 10px;
+  }
+
+  .blockWhite{
+    padding: 30px 10px;
+    background-color: white;
+    height: fit-content;
+  }
+
+  .blockWithImage{
+    padding: 20px 10px;
+    background-color: hsl(0, 2%, 18%);
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    word-wrap: break-word;  
   }
   .textHeaderWhite{
   color: white;
