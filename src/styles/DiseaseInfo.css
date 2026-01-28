@@ -86,7 +86,7 @@
 
 @media (max-width: 769px){
   .generalStyle{
-  font-size: 25px;
+  font-size: 18px;
   font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
   }
   .blockGrey{
@@ -123,31 +123,31 @@
   .textHeaderWhite{
   color: white;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   }
 
   .textHeaderGrey{
     color: rgb(48, 47, 47);
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .textSubheaderWhite{
     color: white;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 23px;
   }
 
   .textSubheaderGrey{
     color: rgb(48, 47, 47);
     font-weight: bold;
-    font-size: 26px;
+    font-size: 23px;
   }
 
   .textMiniheaderGrey{
     color: rgb(48, 47, 47);
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
