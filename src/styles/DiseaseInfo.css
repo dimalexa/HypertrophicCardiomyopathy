@@ -86,7 +86,7 @@
 
 @media (max-width: 769px){
   .generalStyle{
-  font-size: 30px;
+  font-size: 25px;
   font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
   }
   .blockGrey{
@@ -115,6 +115,7 @@
     height: fit-content;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
     word-wrap: break-word;  
@@ -122,31 +123,31 @@
   .textHeaderWhite{
   color: white;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
   }
 
   .textHeaderGrey{
     color: rgb(48, 47, 47);
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .textSubheaderWhite{
     color: white;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .textSubheaderGrey{
     color: rgb(48, 47, 47);
     font-weight: bold;
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .textMiniheaderGrey{
     color: rgb(48, 47, 47);
     font-weight: bold;
-    font-size: 21px;
+    font-size: 25px;
   }
 }
 
