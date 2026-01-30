@@ -6,6 +6,8 @@ import Symptoms from './pages/Diseaseinfo/Symptoms';
 import Diagnosis from './pages/Diseaseinfo/Diagnosis';
 import ClinicalCourse from './pages/Diseaseinfo/ClinicalCourse';
 import Treatment from './pages/Treatment';
+import Drugs from './pages/Treatment/Drugs';
+import Surgery from './pages/Treatment/Surgery';
 import LegalRights from './pages/LegalRights';
 import SCDCalculator from './pages/SCDCalculator';
 
@@ -20,8 +22,8 @@ function App() {
         <Route path="disease-info/diagnosis" element={<Diagnosis />} />
         <Route path="disease-info/clinical-course" element={<ClinicalCourse />} />
         <Route path="treatment" element={<Treatment />} />
-        <Route path="treatment/medication" element={<Treatment />} />
-        <Route path="treatment/surgery" element={<Treatment />} />
+        <Route path="treatment/medication" element={<Drugs />} />
+        <Route path="treatment/surgery" element={<Surgery />} />
         <Route path="treatment/lifestyle" element={<Treatment />} />
         <Route path="legal-rights" element={<LegalRights />} />
         <Route path="SCD-calculator" element={<SCDCalculator />} />
