@@ -7,156 +7,69 @@ export default function DiseaseInfo(){
     return (
         <div className='generalStyle'>
             <HamburgerMenu />
-            <div className="blockRed">
-                <div className="textWhite">
-                    <p>{infotext.Intro[0]}</p>
-                    <p>{infotext.Intro[1]}</p>
-                </div>
-            </div>
-            <div className="blockGrey">
-                <div className="textHeaderWhite">
-                    {infotext.WhatIs[0]}
-                </div>
-            </div>
-            <div className="blockWithImage">
-                <div className="textWhite">
-                    {infotext.WhatIs[1]}
-                    <p>{infotext.WhatIs[2]}</p>
-                </div>
-                 <img src={hcmpvariants} className='imageStyle'></img>
-            </div>
-            <div className="blockGrey">
-                <div className="textWhite">
-                    <p>{infotext.WhatIs[3]}</p>
-                    <p>{infotext.WhatIs[4]}</p>
-                    <p>{infotext.WhatIs[5]}</p>
-                    <p>{infotext.WhatIs[6]}</p>
+            <div className="blockWhite">
+                 <div className="textGrey">
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <p><b>Гипертрофическая кардиомиопатия (ГКМП) — наиболее распространенное наследственное заболевание сердца. 
+                        Если вам поставили этот диагноз, важно понимать: вы не одиноки, 
+                        а современная кардиология обладает четкими алгоритмами эффективного управления этим состоянием.</b></p>
                 </div>
             </div>
             <div className="blockWhite">
                 <div className="textHeaderGrey">
-                    {infotext.Symptoms[0]}
+                   Что же такое ГКМП, если говорить просто?
                 </div>
             </div>
             <div className="blockWhite">
-                 <div className="textGrey">
-                    <p>{infotext.Symptoms[1]}</p>
-                    <p>{infotext.Symptoms[2]}</p>
-                    <p>{infotext.Symptoms[3]}</p>
-                    <p>{infotext.Symptoms[4]}</p>
-                    <p>{infotext.Symptoms[5]}</p>
-                </div>
-            </div>
-            <div className="blockGrey">
-                <div className="textHeaderWhite">
-                    {infotext.RedFlags[0]}
-                </div>
-            </div>
-            <div className="blockGrey">
-                 <div className="textWhite">
-                    <p>{infotext.RedFlags[1]}</p>
+                <div className="textGrey">
+                    <p>Самое важное:
+                    </p>  
                     <ul>
-                    <li>{infotext.RedFlags[2]}</li>
-                    <li>{infotext.RedFlags[3]}</li>
+                    <li>Распространенность: ГКМП встречается у 1 из 500 человек в общей популяции. 
+                        Это означает, что только в России с этим состоянием живут сотни тысяч людей.</li>
+                    <li>Суть диагноза: Это генетически обусловленное утолщение (гипертрофия) стенки левого желудочка сердца.
+                         Чаще всего это не связано с артериальной гипертензией или пороками клапанов.</li>
+                    <li>Вариативность течения: Крайне важно, что течение болезни индивидуально. У значительной части пациентов (до 70%) 
+                        ГКМП протекает малосимптомно или бессимптомно на протяжении всей жизни, не приводя к серьезным осложнениям.</li>
                     </ul>
                 </div>
-            </div>
-            <div className="blockWhite">
-                <div className="textHeaderGrey">
-                    {infotext.HowDiagnosed[0]}
-                </div>
-            </div>
-            <div className="blockWhite">
-                 <div className="textGrey">
-                    <p>{infotext.HowDiagnosed[1]}</p>
-                </div>
                 <div className="textSubheaderGrey">
-                    {infotext.ObjExam[0]}
+                    Почему не стоит паниковать?
                 </div>
                 <div className="textGrey">
-                    <p>{infotext.ObjExam[1]}</p>
-                </div>
-                <div className="textSubheaderGrey">
-                    {infotext.LabExam[0]}
-                </div>
-                <div className="textGrey">
-                    <p>{infotext.LabExam[1]}</p>
-                    <p>{infotext.LabExam[2]}</p>
-                </div>
-                <div className="textSubheaderGrey">
-                    {infotext.InstrExam[0]}
-                </div>
-                <div className="textMiniheaderGrey">
-                    {infotext.ECG[0]}
-                </div>
-                <div className="textGrey">
-                    <p>{infotext.ECG[1]}</p>
-                    <p>{infotext.ECG[2]}</p>
-                </div>
-                <div className="textMiniheaderGrey">
-                    {infotext.EchoKG[0]}
-                </div>
-                <div className="textGrey">
-                    <p>{infotext.EchoKG[1]}</p>
-                    <ul>
-                        <li>{infotext.EchoKG[2]}</li>
-                        <li>{infotext.EchoKG[3]}</li>
-                        <li>{infotext.EchoKG[4]}</li>
-                        <li>{infotext.EchoKG[5]}</li>
+                    <ul> 
+                        <li>ГКМП — одно из самых изученных заболеваний сердца. О нем известно очень много, и врачи во всем мире имеют четкие, 
+                            эффективные протоколы наблюдения и лечения. Вы не останетесь один на один с диагнозом.</li>
+                        <li>Множество людей с ГКМП живут без ограничений. Значительная часть пациентов не испытывает серьезных симптомов вообще. 
+                            Они работают, путешествуют, растят детей, занимаются любимым хобби. Диагноз становится для них просто фоном, 
+                            поводом для регулярного, осознанного check-up у кардиолога.</li>
+                        <li>Медицина предлагает целый арсенал помощи. Если симптомы (например, одышка, сердцебиение) все же появляются, 
+                             есть много вариантов: от хорошо переносимых современных лекарств до малоинвазивных процедур (например, 
+                            септальная алкогольная абляция) и хирургических операций (миэктомия), которые радикально решают проблему. 
+                            А для контроля рисков существуют современные устройства, такие как кардиовертеры-дефибрилляторы (ИКД).</li>
                     </ul>
-                    <p>{infotext.EchoKG[6]}</p>
                 </div>
-                <div className="textMiniheaderGrey">
-                    {infotext.MRI[0]}
-                </div>
-                <div className="textGrey">
-                    <p>{infotext.MRI[1]}</p>
-                    <p>{infotext.MRI[2]}</p>
-                </div>
-                <div className="textMiniheaderGrey">
-                    {infotext.Holter[0]}
+                <div className="textSubheaderGrey">
+                    Что делать прямо сейчас?
                 </div>
                 <div className="textGrey">
-                    <p>{infotext.Holter[1]}</p>
-                    <p>{infotext.Holter[2]}</p>
-                    <p>{infotext.Holter[3]}</p>
-                </div>
-                <div className="textMiniheaderGrey">
-                    {infotext.GeneticTest[0]}
+                    <ol>
+                        <li><b>Найдите своего врача.</b> Ищите кардиолога, который специализируется на ГКМП или наследственных заболеваниях сердца. 
+                            Вы имеете право на второе мнение.</li>
+                        <li><b>Задавайте вопросы.</b> Составьте список всего, что вас волнует, перед приемом. «Что означает моя конкретная ситуация?»,
+                             «Какая физическая активность мне полезна?», «Как часто нужно приходить на осмотр?».</li>
+                        <li><b>Обращайтесь в сообщества.</b> Существуют пациентские организации и проверенные онлайн-ресурсы, 
+                            где можно пообщаться с теми, кто уже много лет живет с ГКМП. Ссылки на найденные выложены на главной странице.</li>
+                    </ol>
                 </div>
                 <div className="textGrey">
-                    <p>{infotext.GeneticTest[1]}</p>
-                    <p>{infotext.GeneticTest[2]}</p>
-                </div>
-            </div>
-            <div className="blockGrey">
-                <div className="textHeaderWhite">
-                    {infotext.Progress[0]}
-                </div>
-            </div>
-            <div className="blockGrey">
-                 <div className="textWhite">
-                    <p>{infotext.Progress[1]}</p>
-                    <p>{infotext.Progress[2]}</p>
-                    <p>{infotext.Progress[3]}</p>
-                    <p>{infotext.Progress[4]}</p>
-                    <p>{infotext.Progress[5]}</p>
-                    <p>{infotext.Progress[6]}</p>
-                </div>
-            </div>
-            <div className="blockRed">
-                <div className="textHeaderWhite">
-                    {infotext.Ending[0]}
-                </div>
-            </div>
-             <div className="blockRed">
-                <div className="textWhite">
-                    <p>{infotext.Ending[1]}</p>
-                    <p>{infotext.Ending[2]}</p>
-                    <p>{infotext.Ending[3]}</p>
-                    <p>{infotext.Ending[4]}</p>
-                    <p>{infotext.Ending[5]}</p>
-                    <p>{infotext.Ending[6]}</p>
+                    <p>ГКМП — это диагноз, а не приговор. Это особенность вашего сердца, которая требует внимания, 
+                        но не должна отбирать радость жизни. ГКМП — хроническое состояние, которое сегодня может быть контролируемым. 
+                        Эффективность лечения основана на доказательной медицине и точной стратификации рисков. Главная задача — перевести диагноз в стадию устойчивой компенсации и продолжать жить активной жизнью.
+                    </p>
+                    <p>Сфокусируйтесь на жизни, а не на болезни. Первый шаг к этому — простое понимание и принятие, которое, мы надеемся, начало формироваться у вас после прочтения этой статьи.</p>
                 </div>
             </div>
         </div>

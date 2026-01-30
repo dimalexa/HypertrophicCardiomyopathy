@@ -6,14 +6,14 @@
 
 .blockGrey{
   padding: 30px 100px;
-  background-color: #302e2e;
+  background-color: grey;
   height: fit-content;
 }
 
 .blockRed{
   padding-top: 100px;
   padding-left: 100px;
-  background-color: #602121;
+  background-color: IndianRed;
   height: fit-content;
   padding-bottom: 10px;
 }
@@ -26,7 +26,7 @@
 
 .blockWithImage{
   padding: 20px 100px;
-  background-color: hsl(0, 2%, 18%);
+  background-color: grey;
   height: fit-content;
   display: flex;
   flex-direction: row;
@@ -51,7 +51,7 @@
 .textGrey{
   flex-grow: 1;
   margin-right: 10%;
-  color: rgb(48, 47, 47);
+  color: #696969;
 }
 
 .textHeaderWhite{
@@ -61,7 +61,7 @@
 }
 
 .textHeaderGrey{
-  color: rgb(48, 47, 47);
+  color: #696969;
   font-weight: bold;
   font-size: 40px;
 }
@@ -73,15 +73,19 @@
 }
 
 .textSubheaderGrey{
-  color: rgb(48, 47, 47);
+  color: #696969;
   font-weight: bold;
   font-size: 30px;
 }
 
 .textMiniheaderGrey{
-  color: rgb(48, 47, 47);
+  color: #696969;
   font-weight: bold;
   font-size: 25px;
+}
+
+img {
+  border-radius: 15px; /* Регулирует степень скругления */
 }
 
 @media (max-width: 769px){
@@ -91,14 +95,12 @@
   }
   .blockGrey{
   padding: 10px 10px;
-  background-color: #302e2e;
   height: fit-content;
   }
 
   .blockRed{
     padding-top: 80px;
     padding-left: 10px;
-    background-color: #602121;
     height: fit-content;
     padding-bottom: 10px;
   }
@@ -111,7 +113,6 @@
 
   .blockWithImage{
     padding: 20px 10px;
-    background-color: hsl(0, 2%, 18%);
     height: fit-content;
     display: flex;
     flex-direction: row;
@@ -121,32 +122,22 @@
     word-wrap: break-word;  
   }
   .textHeaderWhite{
-  color: white;
-  font-weight: bold;
-  font-size: 25px;
+    font-size: 25px;
   }
 
   .textHeaderGrey{
-    color: rgb(48, 47, 47);
-    font-weight: bold;
     font-size: 25px;
   }
 
   .textSubheaderWhite{
-    color: white;
-    font-weight: bold;
     font-size: 23px;
   }
 
   .textSubheaderGrey{
-    color: rgb(48, 47, 47);
-    font-weight: bold;
     font-size: 23px;
   }
 
   .textMiniheaderGrey{
-    color: rgb(48, 47, 47);
-    font-weight: bold;
     font-size: 20px;
   }
 }

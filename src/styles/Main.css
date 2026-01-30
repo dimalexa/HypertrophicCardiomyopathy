@@ -14,11 +14,11 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  word-wrap: break-word;  
+  word-break: break-word;  
 }
 
 .Main-header-text{
-  margin-left: 5vw;
+  margin-right: 5vw;
   word-wrap: break-word; 
   overflow-wrap: break-word;
   align-self: center;
