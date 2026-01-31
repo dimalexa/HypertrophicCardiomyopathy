@@ -38,13 +38,13 @@ export default function Main(){
                     <hr className="line"></hr>
                     <div className='block-image'>
                         <div className="block-text">
-                        <p>Если у Вас возникли вопросы или предложения, пожалуйста, напишите на почту <b>dimitrichenkoai@my.msu.ru</b></p>
-                        <p>Ссылки на найденные сообщества:</p>
-                        <ol>
-                            <li>тут будет ссылка</li>
-                            <li>тут будет ссылка</li>
-                            <li>тут могла бы быть реклама Вашего сообщества.</li>
-                        </ol>
+                            <p>Если у Вас возникли вопросы или предложения, пожалуйста, напишите на почту <b>dimitrichenkoai@my.msu.ru</b></p>
+                            <p>Ссылки на найденные сообщества:</p>
+                            <ol>
+                                <li>тут будет ссылка</li>
+                                <li>тут будет ссылка</li>
+                                <li>тут могла бы быть реклама Вашего сообщества.</li>
+                            </ol>
                         </div>
                         <div>
                             <img src={hearthands} className='medium-image'></img>

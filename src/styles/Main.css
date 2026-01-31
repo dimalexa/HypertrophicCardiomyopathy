@@ -77,13 +77,14 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .medium-image{
   border-radius: 30px;
   max-height: 30vh;
-  margin-right: 15vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
   width: auto;
 }
 
