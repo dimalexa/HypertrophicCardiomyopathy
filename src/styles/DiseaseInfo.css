@@ -1,5 +1,6 @@
 .generalStyle{
   font-size: 20px;
+  color: grey;
   word-wrap: break-word;
   font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
 }
@@ -19,7 +20,6 @@
 }
 
 .blockWhite{
-  padding: 30px 100px;
   background-color: white;
   height: fit-content;
 }
@@ -50,6 +50,7 @@
 
 .textGrey{
   flex-grow: 1;
+  padding: 0px 50px;
   margin-right: 10%;
   color: #696969;
 }

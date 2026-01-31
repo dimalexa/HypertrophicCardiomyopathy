@@ -3,7 +3,7 @@ import TextSwitcher from '../components/TextSwitcher';
 import '../../styles/DiseaseInfo.css';
 import {surgeries} from '../../data/texts/treatment';
 
-export default function Drugs(){
+export default function Surgery(){
     return (
         <div className='generalStyle'>
             <HamburgerMenu />
@@ -19,9 +19,8 @@ export default function Drugs(){
                 <div className="textHeaderGrey">
                     Возможные операции и вмешательства
                 </div>
+                <TextSwitcher data={surgeries} />
             </div>
-
-            <TextSwitcher data={surgeries} />
         </div>
 
     )

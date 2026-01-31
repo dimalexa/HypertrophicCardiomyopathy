@@ -78,7 +78,8 @@ const HamburgerMenu = () => {
     { id: 3, label: 'Лечение', link: '/treatment', subItems: [
         { id: 31, label: 'Медикаментозное', link: '/treatment/medication' },
         { id: 32, label: 'Хирургическое', link: '/treatment/surgery' },
-        { id: 33, label: 'Образ жизни', link: '/treatment/lifestyle' },
+        { id: 33, label: 'Имплантируемые устройства', link: '/treatment/devices' },
+        { id: 34, label: 'Образ жизни', link: '/treatment/lifestyle' },
       ], },
     { id: 4, label: 'Правовые аспекты', link: '/legal-rights' },
     { id: 5, label: 'Калькулятор рисков', link: '/SCD-calculator' },

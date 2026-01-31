@@ -1,6 +1,7 @@
 import heart from '../data/images/heart.jpg';
 import HamburgerMenu from './components/Menu';
 import '../styles/Main.css';
+import hearthands from '../data/images/heart_with_hands.jpg'
 
 export default function Main(){
     return (
@@ -26,6 +27,7 @@ export default function Main(){
                     <p>
                         Также идейным вдохновением послужил сайт <a href='https://www.4hcm.org/'>HCMA (Hypertrophic Cardiomyopathy Association)</a>.
                     </p>
+                    <p>Знакомится с информацией лучше по порядку - для начала читать общий раздел, а затем переходить к специализированным.</p>
                     </div>
                     </div>
                 </div>
@@ -34,14 +36,19 @@ export default function Main(){
                     Контакты
                     </div>
                     <hr className="line"></hr>
-                    <div className="block-text">
-                    <p>Если у Вас возникли вопросы или предложения, пожалуйста, напишите на почту <b>dimitrichenkoai@my.msu.ru</b></p>
-                    <p>Ссылки на найденные сообщества:</p>
-                    <ol>
-                        <li>тут будет ссылка</li>
-                        <li>тут будет ссылка</li>
-                        <li>тут могла бы быть реклама Вашего сообщества.</li>
-                    </ol>
+                    <div className='block-image'>
+                        <div className="block-text">
+                        <p>Если у Вас возникли вопросы или предложения, пожалуйста, напишите на почту <b>dimitrichenkoai@my.msu.ru</b></p>
+                        <p>Ссылки на найденные сообщества:</p>
+                        <ol>
+                            <li>тут будет ссылка</li>
+                            <li>тут будет ссылка</li>
+                            <li>тут могла бы быть реклама Вашего сообщества.</li>
+                        </ol>
+                        </div>
+                        <div>
+                            <img src={hearthands} className='medium-image'></img>
+                        </div>
                     </div>
                 </div>
                 <div className="block">
