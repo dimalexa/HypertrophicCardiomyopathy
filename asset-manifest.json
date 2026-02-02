@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HypertrophicCardiomyopathy/static/css/main.06ea2f40.css",
-    "main.js": "/HypertrophicCardiomyopathy/static/js/main.bbeae8f1.js",
+    "main.css": "/HypertrophicCardiomyopathy/static/css/main.fed936bb.css",
+    "main.js": "/HypertrophicCardiomyopathy/static/js/main.f5ab5041.js",
     "static/js/453.52d2080d.chunk.js": "/HypertrophicCardiomyopathy/static/js/453.52d2080d.chunk.js",
     "static/media/heart.jpg": "/HypertrophicCardiomyopathy/static/media/heart.1495b2011299af29ba2d.jpg",
     "static/media/Echo1.png": "/HypertrophicCardiomyopathy/static/media/Echo1.8d6203dd7f8971f5cb7d.png",
@@ -15,12 +15,12 @@
     "static/media/holter.jpg": "/HypertrophicCardiomyopathy/static/media/holter.0c2bdd4c29080a86a2e6.jpg",
     "static/media/ECS.jpg": "/HypertrophicCardiomyopathy/static/media/ECS.ee6cc2351f6f9b139e85.jpg",
     "index.html": "/HypertrophicCardiomyopathy/index.html",
-    "main.06ea2f40.css.map": "/HypertrophicCardiomyopathy/static/css/main.06ea2f40.css.map",
-    "main.bbeae8f1.js.map": "/HypertrophicCardiomyopathy/static/js/main.bbeae8f1.js.map",
+    "main.fed936bb.css.map": "/HypertrophicCardiomyopathy/static/css/main.fed936bb.css.map",
+    "main.f5ab5041.js.map": "/HypertrophicCardiomyopathy/static/js/main.f5ab5041.js.map",
     "453.52d2080d.chunk.js.map": "/HypertrophicCardiomyopathy/static/js/453.52d2080d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06ea2f40.css",
-    "static/js/main.bbeae8f1.js"
+    "static/css/main.fed936bb.css",
+    "static/js/main.f5ab5041.js"
   ]
 }
