@@ -23,7 +23,7 @@
   overflow-wrap: break-word;
   align-self: center;
   color: #696969;
-  font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
+  font-family: "Open Sans", "CMU Modern Serif Roman", "CMU Modern Sans Serif", "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
 }
 
 .Main-header-header-text{
@@ -33,7 +33,7 @@
   color: #696969;
   font-size: 40px;
   font-weight: bold;
-  font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
+  font-family: "Open Sans", "CMU Modern Serif Roman", "CMU Modern Sans Serif", "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
 }
 
 .block{
@@ -48,7 +48,7 @@
   hyphens: auto;
   padding: 20px 5px;
   color: white;
-  font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
+  font-family: "Open Sans", "CMU Modern Serif Roman", "CMU Modern Sans Serif", "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
   margin-left: 5vw;
   max-width: 60vw;
 }
@@ -57,7 +57,7 @@
   padding: 10px 5px;
   color: white;
   font-weight: bold;
-  font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
+  font-family: "Open Sans", "CMU Modern Serif Roman", "CMU Modern Sans Serif", "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
   font-size: 40px;
   margin-left: 5vw;
   max-width: 60vw;
@@ -81,7 +81,7 @@
   flex-wrap: wrap;
 }
 .medium-image{
-  border-radius: 30px;
+  border-radius: 50%;
   max-height: 30vh;
   margin-right: 5vw;
   margin-left: 5vw;
@@ -92,28 +92,13 @@
   .Main-header {
   max-width: 100vw;
   margin-left: 5vw;
-  min-height: fit-content;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
-  word-wrap: break-word;  
   }
   .Main-header-header-text{
   word-wrap: break-word;    
-  overflow-wrap: break-word;
-  align-self: center;
-  color: #696969;
   font-size: 20px;
-  font-weight: bold;
-  font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
   }
   .block-header{
   padding: 10px 5px;
-  color: white;
-  font-weight: bold;
-  font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
   font-size: 20px;
   margin-left: 5vw;
   max-width: 60vw;
@@ -126,3 +111,19 @@
   font-style: normal; 
   font-weight: normal; 
 } 
+
+@font-face {
+  font-family: "CMU Modern Sans Serif"; 
+  src: url("../data/fonts/cmunss.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "CMU Modern Serif Roman"; 
+  src: url("../data/fonts/cmunrm.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');

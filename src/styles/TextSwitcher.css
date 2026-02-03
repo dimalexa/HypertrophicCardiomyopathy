@@ -1,9 +1,10 @@
 /* TextSwitcher.css */
+/* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);*/
+/* border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);*/
 .text-switcher {
   display: flex;
-  min-height: 100vh;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  font-family: "Montserrat Alternates", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Open Sans", "CMU Modern Serif Roman", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .buttons-container {
@@ -18,14 +19,14 @@
 
 .switch-button {
   padding: 15px 20px;
-  background: #f3f7ff;
+  background: white;
   border: none;
-  color: grey;
-  font-size: 16px;
+  color: #696969;
+  font-size: 20px;
   font-weight: bold;
-  font-family: "Montserrat Alternates";
+  font-family: "Open Sans", "CMU Modern Serif Roman";
   cursor: pointer;
-  border-radius: 8px;
+  /*border-radius: 8px;*/
   transition: all 0.3s ease;
   text-align: center;
   position: relative;
@@ -39,46 +40,45 @@
 }
 
 .switch-button.active {
-  background: #9694f8;
-  color: white;
-  border: none;
-  box-shadow: 0 4px 12px rgba(86, 62, 62, 0.3);
+  /*background: #9694f8;
+  color: white;*/
+  border-bottom: 3px solid #5a5f91;
+  /*box-shadow: 0 4px 12px rgba(86, 62, 62, 0.3);*/
 }
 
 .switch-button.active:hover {
-  background: #9694f8;
+  background: #5a5f91;
+  color: white;
   transform: translateX(5px);
 }
 
 .content-container {
   flex: 1;
-  padding: 40px;
+  padding: 0px 40px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .text-display {
   max-width: 800px;
   background: white;
-  padding: 40px;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 0px 40px 20px;
   animation: fadeIn 0.5s ease;
 }
 
 .text-display h2 {
-  color: grey;
+  color: #696969;
   margin-bottom: 20px;
-  font-size: 28px;
+  font-size: 30px;
   border-bottom: 3px solid #5a5f91;
   padding-bottom: 10px;
 }
 
 .text-display p {
   color: grey;
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 20px;
+  /*line-height: 1.6;*/
 }
 
 .text-header {
@@ -110,18 +110,18 @@
 
 .nav-button {
   padding: 8px 16px;
-  border: 1px solid #9d9eed;
+  border: 1px solid #5a5f91;
   background: white;
-  color: #c0c1f6;
+  color: #5a5f91;
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: 14px;
-  font-family: "Montserrat Alternates";
+  font-family: "Open Sans", "CMU Modern Serif Roman";
 }
 
 .nav-button:hover {
-  background:  #9d9eed;
+  background:  #5a5f91;
   color: white;
 }
 
@@ -185,12 +185,12 @@
   }
   
   .content-container {
-    padding: 20px;
+    padding: 0px 20px;
     min-height: 60vh;
   }
   
   .text-display {
-    padding: 25px;
+    padding: 0px 25px 20px;
     margin-top: 20px;
   }
   
@@ -246,3 +246,12 @@
   font-style: normal; 
   font-weight: normal; 
 } 
+
+@font-face {
+  font-family: "CMU Modern Serif Roman"; 
+  src: url("../data/fonts/cmunrm.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');

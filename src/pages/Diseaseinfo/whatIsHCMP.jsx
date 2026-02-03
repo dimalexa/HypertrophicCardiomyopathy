@@ -6,13 +6,7 @@ import hcmpvariants from '../../data/images/versions_illustration.png';
 export default function WhatIsHCMP(){
     return (
         <div className='generalStyle'>
-            <HamburgerMenu />
-            <div className="blockRed">
-                <div className="textWhite">
-                    <p>{infotext.Intro[0]}</p>
-                    <p>{infotext.Intro[1]}</p>
-                </div>
-            </div>
+            <HamburgerMenu />   
             <div className="blockGrey">
                 <div className="textHeaderWhite">
                     {infotext.WhatIs[0]}

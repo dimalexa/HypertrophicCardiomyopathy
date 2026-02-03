@@ -1,8 +1,9 @@
 .generalStyle{
   font-size: 20px;
+  margin: 70px 100px 0px 100px;
   color: grey;
   word-wrap: break-word;
-  font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
+  font-family: "Open Sans", "CMU Modern Serif Roman", "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
 }
 
 .blockGrey{
@@ -12,11 +13,9 @@
 }
 
 .blockRed{
-  padding-top: 100px;
-  padding-left: 100px;
+  padding: 30px 100px;
   background-color: IndianRed;
   height: fit-content;
-  padding-bottom: 10px;
 }
 
 .blockWhite{
@@ -51,7 +50,7 @@
 .textGrey{
   flex-grow: 1;
   padding: 0px 50px;
-  margin-right: 10%;
+  margin-right: 10;
   color: #696969;
 }
 
@@ -59,12 +58,14 @@
   color: white;
   font-weight: bold;
   font-size: 40px;
+  text-align: center;
 }
 
 .textHeaderGrey{
   color: #696969;
   font-weight: bold;
   font-size: 40px;
+  text-align: center;
 }
 
 .textSubheaderWhite{
@@ -93,8 +94,8 @@ img {
 
 @media (max-width: 769px){
   .generalStyle{
+    margin: 70px 5px 0px 5px;
   font-size: 18px;
-  font-family:  "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
   }
   .blockGrey{
   padding: 10px 10px;
@@ -151,3 +152,12 @@ img {
   font-style: normal; 
   font-weight: normal; 
 }
+
+@font-face {
+  font-family: "CMU Modern Serif Roman"; 
+  src: url("../data/fonts/cmunrm.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');

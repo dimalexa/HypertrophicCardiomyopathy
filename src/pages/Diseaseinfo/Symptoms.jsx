@@ -7,12 +7,6 @@ export default function Symptoms(){
     return (
         <div className='generalStyle'>
             <HamburgerMenu />
-            <div className="blockRed">
-                <div className="textWhite">
-                    <p>{infotext.Intro[0]}</p>
-                    <p>{infotext.Intro[1]}</p>
-                </div>
-            </div>
 
             <div className="blockWhite">
                 <div className="textHeaderGrey">

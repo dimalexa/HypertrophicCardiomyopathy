@@ -5,13 +5,6 @@ export default function Life(){
     return (
         <div className='generalStyle'>
             <HamburgerMenu />
-            <div className="blockRed">
-                <div className="textWhite">
-                    <p>Здравствуйте! Этот текст поможет вам понять, что такое гипертрофическая кардиомиопатия, 
-                        как её распознать и что делать дальше. Помните, что эта информация носит ознакомительный 
-                        характер и не заменяет консультацию с вашим лечащим врачом-кардиологом.</p>
-                </div>
-            </div>
 
             <div className="textGrey">
                 <div className="textHeaderGrey">
