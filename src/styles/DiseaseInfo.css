@@ -26,11 +26,10 @@
 
 .blockWithImage{
   padding: 20px 100px;
-  background-color: grey;
   height: fit-content;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   word-wrap: break-word;  
 }
@@ -38,8 +37,16 @@
 
 .imageStyle {
   flex-grow: 1;
-  width: 300vw;
   height: auto;
+}
+
+.smallImage {
+  max-width: 20vw;
+  height: auto;
+}
+
+.textBlock{
+  padding: 10%;
 }
 
 .textWhite{
@@ -49,7 +56,6 @@
 }
 
 .textGrey{
-  flex-grow: 1;
   padding: 0px 50px;
   margin-right: 10;
   color: #696969;
