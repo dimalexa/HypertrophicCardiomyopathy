@@ -12,7 +12,7 @@ export default function WhatIsHCMP(){
                     {infotext.WhatIs[0]}
                 </div>
             </div>
-            <div className="blockWithImage">
+            <div className="blockWithImage" style={{'background' : 'grey'}}>
                 <div className="textWhite">
                     {infotext.WhatIs[1]}
                     <p>{infotext.WhatIs[2]}</p>
