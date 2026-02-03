@@ -2,7 +2,7 @@ import ICD from '../../data/images/ICD.jpg';
 import ECS from '../../data/images/ECS.jpg';
 import myoectomia from '../../data/images/septalnaya-myoectomia.jpg';
 import ablation from '../../data/images/ablation.jpg';
-import drugs from '../../data/images/drugs.jpg';
+import drug from '../../data/images/drugs.jpg';
 
 
 export const drugs = [
@@ -34,7 +34,7 @@ export const drugs = [
         </ul>
         </div>,
         category: "Лекарства",
-        img: drugs
+        img: drug
     },
     {
         id: 2,
@@ -59,7 +59,7 @@ export const drugs = [
         </ul>
         </div>,
         category: "Лекарства",
-        img: drugs
+        img: drug
     },
     {
         id: 3,
@@ -72,7 +72,7 @@ export const drugs = [
             не только пациентов с ГКМП, но и перенесших много инфарктов, с плохо работающими клапанами, а также многих других. 
         </div>,
         category: "Лекарства",
-        img: drugs
+        img: drug
     },
     {
         id: 4,
@@ -96,7 +96,7 @@ export const drugs = [
                 электрокардиостимулятор либо имплантируемый кардиовертер- дефибриллятор.</p>
         </div>,
         category: "Лекарства",
-        img: drugs
+        img: drug
     },
     {
         id: 5,
@@ -126,7 +126,7 @@ export const drugs = [
             </ul>
         </div>,
         category: "Лекарства",
-        img: drugs
+        img: drug
     },
     {
         id: 6,
@@ -140,7 +140,7 @@ export const drugs = [
             </p> 
         </div>,
         category: "Лекарства",
-        img: drugs
+        img: drug
     }
 ]
 
