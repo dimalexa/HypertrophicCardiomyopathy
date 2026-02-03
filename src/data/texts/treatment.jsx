@@ -2,7 +2,7 @@ import ICD from '../../data/images/ICD.jpg';
 import ECS from '../../data/images/ECS.jpg';
 import myoectomia from '../../data/images/septalnaya-myoectomia.jpg';
 import ablation from '../../data/images/ablation.jpg';
-import drug from '../../data/images/drugs.jpg';
+import drug from '../../data/images/drugs(1).jpg';
 
 
 export const drugs = [
