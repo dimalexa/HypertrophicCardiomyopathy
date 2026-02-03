@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/HypertrophicCardiomyopathy/static/css/main.d4bed9da.css",
-    "main.js": "/HypertrophicCardiomyopathy/static/js/main.0201e840.js",
+    "main.js": "/HypertrophicCardiomyopathy/static/js/main.a7601cc4.js",
     "static/js/453.52d2080d.chunk.js": "/HypertrophicCardiomyopathy/static/js/453.52d2080d.chunk.js",
     "static/media/smoked-vegetable-slices-aubergine-tomato-bell-pepper-onion.jpg": "/HypertrophicCardiomyopathy/static/media/smoked-vegetable-slices-aubergine-tomato-bell-pepper-onion.de2a2ebcf7ccf46783ae.jpg",
     "static/media/runners.jpg": "/HypertrophicCardiomyopathy/static/media/runners.ea624999acd84d953ef2.jpg",
+    "static/media/drugs.jpg": "/HypertrophicCardiomyopathy/static/media/drugs.2d5eafa2fb3638c977ec.jpg",
     "static/media/vaccination.jpg": "/HypertrophicCardiomyopathy/static/media/vaccination.702f8679f582c8eb0b37.jpg",
     "static/media/heart.jpg": "/HypertrophicCardiomyopathy/static/media/heart.1495b2011299af29ba2d.jpg",
     "static/media/flight.jpg": "/HypertrophicCardiomyopathy/static/media/flight.3ee91aa77d6b1586f2a5.jpg",
@@ -30,11 +31,11 @@
     "static/media/ECS.jpg": "/HypertrophicCardiomyopathy/static/media/ECS.ee6cc2351f6f9b139e85.jpg",
     "index.html": "/HypertrophicCardiomyopathy/index.html",
     "main.d4bed9da.css.map": "/HypertrophicCardiomyopathy/static/css/main.d4bed9da.css.map",
-    "main.0201e840.js.map": "/HypertrophicCardiomyopathy/static/js/main.0201e840.js.map",
+    "main.a7601cc4.js.map": "/HypertrophicCardiomyopathy/static/js/main.a7601cc4.js.map",
     "453.52d2080d.chunk.js.map": "/HypertrophicCardiomyopathy/static/js/453.52d2080d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4bed9da.css",
-    "static/js/main.0201e840.js"
+    "static/js/main.a7601cc4.js"
   ]
 }
