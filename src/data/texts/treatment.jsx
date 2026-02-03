@@ -1,5 +1,7 @@
-import ICD from '../../data/images/ICD.jpg'
-import ECS from '../../data/images/ECS.jpg'
+import ICD from '../../data/images/ICD.jpg';
+import ECS from '../../data/images/ECS.jpg';
+import myoectomia from '../../data/images/septalnaya-myoectomia.jpg';
+import ablation from '../../data/images/ablation.jpg';
 
 
 export const drugs = [
@@ -215,7 +217,7 @@ export const surgeries = [
                 Из других нарушений ритма бывает блокада левой ножки пучка Гиса (БЛНПГ) — это один из проводящих путей в сердце.</p>
         </div>,
         category: "Хирургическая операция",
-        img: ""
+        img: myoectomia
     },
     {
         id: 2,
@@ -244,7 +246,7 @@ export const surgeries = [
                     Миоэктомия вызывает БЛНПГ, а ножек у пучка Гиса всего две — правая и левая.</p>
         </div>,
         category: "Интервеционное вмешательство",
-        img: ""
+        img: ablation
     }
 ]
 

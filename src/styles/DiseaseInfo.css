@@ -1,9 +1,9 @@
 .generalStyle{
-  font-size: 20px;
   margin: 70px 100px 0px 100px;
   color: grey;
   word-wrap: break-word;
   font-family: "Open Sans", "CMU Modern Serif Roman", "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
+  min-height: 100vh;
 }
 
 .blockGrey{
@@ -19,6 +19,7 @@
 }
 
 .blockWhite{
+  padding-top: 30px;
   background-color: white;
   height: fit-content;
 }
@@ -90,6 +91,10 @@ img {
   border-radius: 15px;
   max-width: 80vw; 
   height: auto;
+}
+
+a {
+  color: #5a5f91;
 }
 
 @media (max-width: 769px){

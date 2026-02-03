@@ -88,6 +88,10 @@
   width: auto;
 }
 
+.linkStyle {
+  color: #bdc1ef;
+}
+
 @media (max-width: 769px){
   .Main-header {
   max-width: 100vw;

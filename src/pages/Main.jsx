@@ -41,7 +41,7 @@ export default function Main(){
                             <p>Если у Вас возникли вопросы или предложения, пожалуйста, напишите на почту <b>dimitrichenkoai@my.msu.ru</b></p>
                             <p>Ссылки на найденные сообщества:</p>
                             <ol>
-                                <li><a href='https://t.me/GKMPchat'>Сообщество в телеграмм</a></li>
+                                <li><a href='https://t.me/GKMPchat' className='linkStyle'>Сообщество в телеграмм.</a></li>
                                 <li>тут могла бы быть реклама Вашего сообщества.</li>
                             </ol>
                         </div>
