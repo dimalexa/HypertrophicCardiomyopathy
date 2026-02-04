@@ -2,7 +2,7 @@ import HamburgerMenu from './components/Menu';
 import '../styles/DiseaseInfo.css';
 import Contacts from './components/Contacts';
 import {infotext} from '../data/texts/diseaseinfo';
-import hcmpvariants from '../data/images/hcmpvariants.jpg';
+import help from '../data/images/help.jpg';
 
 export default function DiseaseInfo(){
     return (
@@ -10,13 +10,14 @@ export default function DiseaseInfo(){
             <HamburgerMenu />
             <div className='generalStyle'>
             <div className="blockWhite">
-                 <div className="textGrey">
-                    <p><b>Гипертрофическая кардиомиопатия (ГКМП) — наиболее распространенное наследственное заболевание сердца. 
-                        Если вам поставили этот диагноз, важно понимать: вы не одиноки, 
-                        а современная кардиология обладает четкими алгоритмами эффективного управления этим состоянием.</b></p>
+                <div className='blockWithImage' style={{'background-color' : '#f0f0f3', 'border-radius' : '25px'}}>
+                    <div className="textGrey">
+                        <p><b>Гипертрофическая кардиомиопатия (ГКМП) — наиболее распространенное наследственное заболевание сердца. 
+                            Если вам поставили этот диагноз, важно понимать: вы не одиноки, 
+                            а современная кардиология обладает четкими алгоритмами эффективного управления этим состоянием.</b></p>
+                    </div>
+                    <img src={help} style={{'width' : '30%', 'margin' : '0px 25px'}}></img>
                 </div>
-            </div>
-            <div className="blockWhite">
                 <div className="textHeaderGrey">
                    Что же такое ГКМП?
                 </div>

@@ -25,13 +25,14 @@
 }
 
 .blockWithImage{
-  padding-top: 20px;
+  padding: 20px 0px;
   height: fit-content;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  word-wrap: break-word;  
+  word-wrap: break-word;
+  gap: 10%;  
 }
 
 
