@@ -148,6 +148,7 @@
 
   .MainNews {
   width: calc(100vw - 10%);
+  height: fit-content;
   }
 
   .block-header{
