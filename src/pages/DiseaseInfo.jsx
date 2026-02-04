@@ -16,7 +16,7 @@ export default function DiseaseInfo(){
                             Если вам поставили этот диагноз, важно понимать: вы не одиноки, 
                             а современная кардиология обладает четкими алгоритмами эффективного управления этим состоянием.</b></p>
                     </div>
-                    <img src={help} style={{'width' : '30%', 'margin' : '0px 25px'}}></img>
+                    <img src={help} className='imageStyle'></img>
                 </div>
                 <div className="textHeaderGrey">
                    Что же такое ГКМП?

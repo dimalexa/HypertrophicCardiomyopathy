@@ -37,14 +37,15 @@
 
 
 .imageStyle {
-  flex-grow: 1;
-  height: auto;
+  width: 30%;
+  margin: 0px 25px;
 }
 
 .smallImage {
   max-width: 20vw;
   height: auto;
 }
+
 
 .textBlock{
   padding: 10%;
@@ -131,7 +132,7 @@ a {
     padding: 20px 10px;
     height: fit-content;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
@@ -159,6 +160,12 @@ a {
 
   .smallImage{
     display: none;
+  }
+
+  .imageStyle {
+    width: 90%;
+    align-self: center;
+    margin: 0px 25px;
   }
 }
 
