@@ -5,6 +5,7 @@
 .Main{
   margin-top: 70px;
   word-wrap: break-word;
+  flex-wrap: wrap;
   font-family: "Open Sans", "CMU Modern Serif Roman", "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
 }
 
