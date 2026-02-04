@@ -2,12 +2,14 @@ import HamburgerMenu from '../components/Menu';
 import TextSwitcher from '../components/TextSwitcher';
 import '../../styles/DiseaseInfo.css';
 import {dataExams, infotext} from '../../data/texts/diseaseinfo';
+import Contacts from '../components/Contacts';
 
 export default function Diagnosis(){
     return (
-        <div className='generalStyle'>
+        <div>
             <HamburgerMenu />
-        
+
+            <div className='generalStyle'>
             <div className="blockWhite">
                 <div className="textHeaderGrey">
                     {infotext.HowDiagnosed[0]}
@@ -38,6 +40,8 @@ export default function Diagnosis(){
             </div>
 
             <TextSwitcher data={dataExams}/>
+            </div>
+            <Contacts />
         </div>
 
     )

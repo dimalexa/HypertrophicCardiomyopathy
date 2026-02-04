@@ -25,11 +25,11 @@
 }
 
 .blockWithImage{
-  padding: 20px 100px;
+  padding-top: 20px;
   height: fit-content;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   word-wrap: break-word;  
 }
@@ -133,7 +133,6 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    background: grey;
     justify-content: space-between;
     word-wrap: break-word;  
   }

@@ -70,19 +70,19 @@ const HamburgerMenu = () => {
   const menuItems = [
     { id: 1, label: 'Главная', link: '/' },
     { id: 2, label: 'О болезни', link: '/disease-info', subItems: [
-        { id: 21, label: 'Что такое ГКМП', link: '/disease-info/what-is-hcm' },
+        { id: 21, label: 'Немного о патогенезе', link: '/disease-info/what-is-hcm' },
         { id: 22, label: 'Симптомы', link: '/disease-info/symptoms' },
         { id: 23, label: 'Диагностика', link: '/disease-info/diagnosis' },
         { id: 24, label: 'Течение болезни', link: '/disease-info/clinical-course' },
       ], },
-    { id: 3, label: 'Лечение', link: '/treatment', subItems: [
-        { id: 31, label: 'Медикаментозное', link: '/treatment/medication' },
-        { id: 32, label: 'Хирургическое', link: '/treatment/surgery' },
+    { id: 3, label: 'Жизнь с ГКМП', link: '/treatment', subItems: [
+        { id: 31, label: 'Терапия', link: '/treatment/medication' },
+        { id: 32, label: 'Операции', link: '/treatment/surgery' },
         { id: 33, label: 'Имплантируемые устройства', link: '/treatment/devices' },
         { id: 34, label: 'Образ жизни', link: '/treatment/lifestyle' },
       ], },
-    { id: 4, label: 'Правовые аспекты', link: '/legal-rights' },
-    { id: 5, label: 'Калькулятор рисков', link: '/SCD-calculator' },
+    { id: 4, label: 'Программы', link: '/legal-rights' },
+    { id: 5, label: 'О сайте', link: '/about' },
   ];
 
   const handleSubItemClick = () => {
@@ -161,7 +161,7 @@ const HamburgerMenu = () => {
                         className="dropdown-item main-item"
                         onClick={() => handleMenuItemClick(item.link)}
                       >
-                        Общая информация
+                        {item.label}
                       </Link>
                     </li>
                     {item.subItems.map((subItem) => (

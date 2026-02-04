@@ -11,7 +11,7 @@ import Surgery from './pages/Treatment/Surgery';
 import Devices from './pages/Treatment/Devices';
 import Life from './pages/Treatment/Life';
 import LegalRights from './pages/LegalRights';
-import SCDCalculator from './pages/SCDCalculator';
+import About from './pages/About';
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
         <Route path="treatment/devices" element={<Devices />} />
         <Route path="treatment/lifestyle" element={<Life />} />
         <Route path="legal-rights" element={<LegalRights />} />
-        <Route path="SCD-calculator" element={<SCDCalculator />} />
+        <Route path="about" element={<About />} />
       </Routes>
     </HashRouter>
   );

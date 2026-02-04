@@ -6,12 +6,13 @@ import profession from '../../data/images/profession.jpg';
 import driving from '../../data/images/cardriving.jpg';
 import vaccination from '../../data/images/vaccination.jpg';
 import flight from '../../data/images/flight.jpg';
+import Contacts from '../components/Contacts';
 
 export default function Life(){
     return (
-        <div className='generalStyle'>
+        <div>
             <HamburgerMenu />
-
+            <div className='generalStyle'>
             <div className="textGrey">
                 <div className="textHeaderGrey">
                     Как ГКМП может повлиять на жизнь
@@ -99,6 +100,8 @@ export default function Life(){
                     </div>
                 </div>
             </div>
+            </div>
+            <Contacts />
         </div>
 
     )

@@ -1,60 +1,46 @@
-import heart from '../data/images/heart.jpg';
+import cardiologist from '../data/images/cardiologist.jpg';
 import HamburgerMenu from './components/Menu';
+import Contacts from './components/Contacts';
 import '../styles/Main.css';
-import hearthands from '../data/images/heart_with_hands.jpg'
+import { Link } from 'react-router-dom';
+import { news } from '../data/texts/news';
+
 
 export default function Main(){
+
     return (
         <div >
             <HamburgerMenu />
-            <div className="Main">
-                <div className="Main-header">
-                    <img src={heart} className="Heart-logo" alt="logo" />
-                    <div>
-                    <div className="Main-header-header-text">
-                    <p>Что это за сайт?</p>
+            <div className='Main'>
+                <div className="MainBlock">
+                    <div className='MainNav'>
+                        <p><b>Здравствуйте! Вы оказались на сайте, посвященном 
+                            информированию пациентов с гипертрофической кардиомиопатией.</b></p>
+                        <button className="navButton">
+                            <Link to={'/about'} className='navButtonLink'> О нас → </Link>
+                        </button>
+                        <p><b>Если Вы не знаете, откуда начать, начните отсюда:</b></p>
+                        <button className="navButton">
+                            <Link to={'/disease-info'} className='navButtonLink'> Что такое ГКМП → </Link>
+                        </button>
                     </div>
-                    <div className="Main-header-text"> 
-                    <p> Это сайт, направленный на информационную поддержку людей, живущих с гипертрофической кардиомиопатией. 
-                        Материалы на сайте призваны дать представление о том, что это за диагноз, как он лечится и как с ним жить.
-                        Искренне надеемся, что это поможет Вам или Вашим близким!
-                    </p>
-                    <p>
-                        Сайт написан на основе действующих клинических рекомендаций - <a href='https://cr.minzdrav.gov.ru/view-cr/283_2'>Российского кардиологического общества (2025)</a>, 
-                        <a href='https://www.ahajournals.org/doi/10.1161/CIR.0000000000001250'>AHA (2024)</a>,   
-                        <a href='https://academic.oup.com/eurheartj/article/44/37/3503/7246608'>ESC (2023)</a>.
-                    </p>
-                    <p>
-                        Также идейным вдохновением послужил сайт <a href='https://www.4hcm.org/'>HCMA (Hypertrophic Cardiomyopathy Association)</a>.
-                    </p>
-                    <p>Знакомится с информацией лучше по порядку - для начала читать общий раздел, а затем переходить к специализированным.</p>
-                    </div>
-                    </div>
-                </div>
-                <div className="block">
-                    <div className="block-header">
-                    Контакты
-                    </div>
-                    <hr className="line"></hr>
-                    <div className='block-image'>
-                        <div className="block-text">
-                            <p>Если у Вас возникли вопросы или предложения, пожалуйста, напишите на почту <b>dimitrichenkoai@my.msu.ru</b></p>
-                            <p>Ссылки на найденные сообщества:</p>
-                            <ol>
-                                <li><a href='https://t.me/GKMPchat' className='linkStyle'>Сообщество в телеграмм.</a></li>
-                                <li>тут могла бы быть реклама Вашего сообщества.</li>
-                            </ol>
+                    <div className='MainNews'>
+                        <div className="MainNewsHeader">
+                            Новости сайта
                         </div>
-                        <div>
-                            <img src={hearthands} className='medium-image'></img>
+                        <div className="MainNewsText"> 
+                            {news.map((item, index) => (
+                                <div style={{'border-bottom' : '1px solid rgb(216, 216, 221)'}}>
+                                    <h2>{item.title}</h2>
+                                    <p>{item.content}</p>
+                                    <p style={{'font-size' : '14px', 'text-align' : 'end'}}>Дата создания новости: {item.date}</p>
+                                </div>
+                            ))}
                         </div>
                     </div>
-                </div>
-                <div className="block">
-                    <p>
-                    </p>
                 </div>
             </div>
+            <Contacts />
         </div>
     );
 }

@@ -1,13 +1,15 @@
 import HamburgerMenu from '../components/Menu';
 import TextSwitcher from '../components/TextSwitcher';
+import Contacts from '../components/Contacts';
 import '../../styles/DiseaseInfo.css';
 import {infotext, dataSymptoms} from '../../data/texts/diseaseinfo';
 
 export default function Symptoms(){
     return (
-        <div className='generalStyle'>
+        <div>
             <HamburgerMenu />
 
+            <div className='generalStyle'>
             <div className="blockWhite">
                 <div className="textHeaderGrey">
                     <p>Какими симптомами может проявляться ГКМП?</p>
@@ -29,13 +31,13 @@ export default function Symptoms(){
 
             <TextSwitcher data={dataSymptoms} />
 
-            <div className="blockGrey">
-                <div className="textHeaderWhite">
+            <div className="blockWhite">
+                <div className="textHeaderGrey">
                     {infotext.RedFlags[0]}
                 </div>
             </div>
-            <div className="blockGrey">
-                 <div className="textWhite">
+            <div className="blockWhite">
+                 <div className="textGrey">
                     <p>{infotext.RedFlags[1]}</p>
                     <ul>
                     <li>{infotext.RedFlags[2]}</li>
@@ -43,6 +45,8 @@ export default function Symptoms(){
                     </ul>
                 </div>
             </div>
+            </div>
+            <Contacts />
         </div>
 
     )

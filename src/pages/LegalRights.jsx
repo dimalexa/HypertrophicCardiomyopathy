@@ -1,10 +1,11 @@
 import HamburgerMenu from './components/Menu';
-import '../styles/LegalRights.css';
+import Contacts from './components/Contacts';
 
 export default function LegalRights(){
     return (
-        <div class="main">
+        <div>
              <HamburgerMenu />
+             <Contacts />
         </div>
     );
 }

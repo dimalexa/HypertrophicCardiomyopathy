@@ -355,7 +355,7 @@
 
 /* Активный пункт меню */
 .nav-item.active .nav-link {
-  color: #007bff;
+  color: #5a5f91;
 }
 
 .nav-item.active .nav-link::after {

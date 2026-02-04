@@ -1,13 +1,14 @@
 import HamburgerMenu from '../components/Menu';
 import TextSwitcher from '../components/TextSwitcher';
+import Contacts from '../components/Contacts';
 import '../../styles/DiseaseInfo.css';
 import {devices} from '../../data/texts/treatment';
 
 export default function Devices(){
     return (
-        <div className='generalStyle'>
+        <div>
             <HamburgerMenu />
-
+            <div className='generalStyle'>
             <div className="blockWhite">
                 <div className="textHeaderGrey">
                     Имплантируемые устройства
@@ -30,6 +31,8 @@ export default function Devices(){
                     (ухудшились симптомы, была проведена какая-либо операция, возникло другое заболевание).</p>
                 <TextSwitcher data={devices} />
             </div>
+            </div>
+            <Contacts />
         </div>
 
     )

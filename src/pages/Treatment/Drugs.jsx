@@ -2,12 +2,13 @@ import HamburgerMenu from '../components/Menu';
 import TextSwitcher from '../components/TextSwitcher';
 import '../../styles/DiseaseInfo.css';
 import {drugs} from '../../data/texts/treatment';
+import Contacts from '../components/Contacts';
 
 export default function Drugs(){
     return (
-        <div className='generalStyle'>
+        <div>
             <HamburgerMenu />
-
+            <div className='generalStyle'>
             <div className="blockWhite">
                 <div className="textHeaderGrey">
                     Препараты, которые могут назначить:
@@ -52,6 +53,8 @@ export default function Drugs(){
             </div>
 
             <TextSwitcher data={drugs} />
+            </div>
+            <Contacts />
         </div>
 
     )

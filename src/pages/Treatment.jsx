@@ -1,10 +1,11 @@
 import HamburgerMenu from './components/Menu';
-import '../styles/Treatment.css';
+import Contacts from './components/Contacts';
 
 export default function Treatment(){
     return (
-        <div class="main">
+        <div>
              <HamburgerMenu />
+             <Contacts />
         </div>
     );
 }

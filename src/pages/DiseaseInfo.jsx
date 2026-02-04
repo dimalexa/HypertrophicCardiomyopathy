@@ -1,12 +1,14 @@
 import HamburgerMenu from './components/Menu';
 import '../styles/DiseaseInfo.css';
+import Contacts from './components/Contacts';
 import {infotext} from '../data/texts/diseaseinfo';
 import hcmpvariants from '../data/images/hcmpvariants.jpg';
 
 export default function DiseaseInfo(){
     return (
-        <div className='generalStyle'>
+        <div>
             <HamburgerMenu />
+            <div className='generalStyle'>
             <div className="blockWhite">
                  <div className="textGrey">
                     <p><b>Гипертрофическая кардиомиопатия (ГКМП) — наиболее распространенное наследственное заболевание сердца. 
@@ -68,6 +70,8 @@ export default function DiseaseInfo(){
                     </p>
                 </div>
             </div>
+            </div>
+            <Contacts />
         </div>
     );
 }
