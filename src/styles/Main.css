@@ -142,12 +142,12 @@
   }
 
   .MainNav {
-  width: 100vw;
+  width: calc(100vw - 20%);
   height: 150vw;
   }
 
   .MainNews {
-  width: 100vw;
+  width: calc(100vw - 10%);
   }
 
   .block-header{
