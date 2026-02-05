@@ -2,15 +2,18 @@ import HamburgerMenu from './components/Menu';
 import '../styles/DiseaseInfo.css';
 import '../styles/Main.css';
 import Contacts from './components/Contacts';
+import { Link } from 'react-router-dom';
 import {infotext} from '../data/texts/diseaseinfo';
 import help from '../data/images/help.jpg';
+import worldmap from '../data/images/worldmap.jpg';
+import drugforlink from '../data/images/drugforlink.jpg';
 
 export default function DiseaseInfo(){
     return (
         <div>
             <HamburgerMenu />
             <div className='generalStyle'>
-            <div className="blockWhite">
+            
                 <div className='blockWithImage' style={{'background-color' : '#f0f0f3', 'border-radius' : '25px'}}>
                     <div className="textGrey">
                         <h3><b>Гипертрофическая кардиомиопатия (ГКМП) — наиболее распространенное наследственное заболевание сердца. 
@@ -26,38 +29,45 @@ export default function DiseaseInfo(){
                     </div>
                     <img src={help} className='imageStyle'></img>
                 </div>
+                <div className="blockWhite">
                 <div className="textHeaderGrey">
                    Что же такое ГКМП?
                 </div>
-                <div className="textGrey"> 
+                <div className='blockWithImage'>
+                <div className="textGrey" style={{'padding' : '20px 0px', 'border-bottom' : '3px solid #5a5f91', 'border-top' : '3px solid #5a5f91'}}> 
                     <ul>
-                    <li>Распространенность: ГКМП встречается у 1 из 200 человек в общей популяции. 
+                    <li><b>Распространенность:</b> ГКМП встречается у <b> 1 из 200 человек в общей популяции.</b> 
                         В России с этим заболеванием живут 300 тысяч (с установленным диагнозом). 
-                        Оценка с учётом распространённости по миру 722,5 тысяч. </li>
-                    <li>Суть диагноза: Это генетически обусловленное утолщение (гипертрофия) стенки левого желудочка сердца.
-                         Это не связано с артериальной гипертензией или пороками клапанов, с образом жизни. 
-                         Это заболевание может проявиться вне зависимости от внешних факторов.</li>
-                    <li>Вариативность течения: Крайне важно, что течение болезни индивидуально. У значительной части пациентов (до 70%) 
+                        Оценка, исходя из распространённости по миру, - 722,5 тысяч. Всего в мире 20 млн. 
+                        людей с гипертрофической кардиомиопатией</li>
+                    <li><b>Суть диагноза:</b> Это генетически обусловленное утолщение (гипертрофия) стенки сердца. Обычно говорят про левый желудочек, хотя болезнь поражает все сердце.
+                         Это не связано с артериальной гипертензией или пороками клапанов, с образом жизни - заболевание может проявиться вне зависимости от внешних факторов.</li>
+                    <li><b>Вариативность течения:</b> Крайне важно, что течение болезни индивидуально. У значительной части пациентов (до 70%) 
                         ГКМП протекает малосимптомно или бессимптомно на протяжении всей жизни, не приводя к серьезным осложнениям.</li>
                     </ul>
                 </div>
-                <div className="textSubheaderGrey">
-                    Почему не стоит паниковать?
+                <img src={worldmap} className='smallImage'></img>
+                </div>
+                <div className='cardStyle'>
+                <div className="textGrey" style={{'background-color' : '#f0f0f3', 'border-radius' : '25px 0px 0px 25px', 'flex-grow' : '1', 'border-right' : '6px solid #5a5f91'}}>
+                    <h2>Почему не стоит паниковать?</h2>
                 </div>
                 <div className="textGrey">
                     <ul> 
-                        <li>ГКМП — одно из самых изученных заболеваний сердца. О нем известно очень много, и врачи во всем мире имеют четкие, 
-                            эффективные протоколы наблюдения и лечения. Вы не останетесь один на один с диагнозом.</li>
-                        <li>Риск внезапной сердечной смерти при ГКМП: 0,2% в год. В то же время риск смерти от автокатастрофы: 0.3% в год</li>
-                        <li>Общая смертность от ГКМП составляет около 1% в год, </li>
-                        <li>Медицина предлагает целый арсенал помощи. Если симптомы (например, одышка, сердцебиение) все же появляются, 
+                        <li>ГКМП — одно из самых изученных заболеваний сердца. О нем известно очень много, и врачи во всем мире имеют четкие
+                             протоколы наблюдения и лечения. <b>Вы не останетесь один на один с диагнозом.</b></li>
+                        <li>Риск внезапной сердечной смерти при ГКМП - <b>0,2% в год.</b> В то же время риск смерти от автокатастрофы - <b>0.3% в год.</b> </li>
+                        <li>Общая смертность от ГКМП составляет около 1% в год.</li>
+                        <li><b>Медицина предлагает целый арсенал помощи.</b> Если симптомы (например, одышка, сердцебиение) все же появляются, 
                              есть много вариантов: от хорошо переносимых современных лекарств до малоинвазивных процедур (например, 
                             септальная алкогольная абляция) и хирургических операций (миэктомия), которые радикально решают проблему. 
                             А для контроля рисков существуют современные устройства, такие как кардиовертеры-дефибрилляторы (ИКД).</li>
                     </ul>
                 </div>
-                <div className="textSubheaderGrey">
-                    Что делать прямо сейчас?
+                </div>
+                <div className='cardStyle'>
+                     <div className="textGrey" style={{'background-color' : '#f0f0f3', 'border-radius' : '25px 0px 0px 25px', 'flex-grow' : '1', 'border-right' : '6px solid #5a5f91'}}>
+                    <h2>Что делать прямо сейчас?</h2>
                 </div>
                 <div className="textGrey">
                     <ol>
@@ -71,12 +81,28 @@ export default function DiseaseInfo(){
                         которая может помочь Вам понять своё заболевание и как с ним жить</li>
                     </ol>
                 </div>
+                </div>
+                <div className='textGrey' style={{'padding' : '20px 0px', 'text-align' : 'center'}}>
+                    <h2><b>Вы можете узнать больше о гипертрофической кардиомиопатии, изучив эти разделы:</b></h2>
+                </div>
+                <div className='imgWithLink'>
+                    <div className='imgWithLink-what'><Link to={'/treatment/what-is-hcm'} className='imgLink'>Патогенез</Link></div>
+                    <div className='imgWithLink-symptoms'><Link to={'/treatment/symptoms'} className='imgLink'>Симптомы</Link></div>
+                    <div className='imgWithLink-examination'><Link to={'/treatment/diagnosis'} className='imgLink'>Исследования</Link></div>
+                    <div className='imgWithLink-progression'><Link to={'/treatment/clinical-course'} className='imgLink'>Осложнения</Link></div>
+                    <div className='imgWithLink-drugs'><Link to={'/treatment/medication'} className='imgLink'>Терапия</Link></div>
+                    <div className='imgWithLink-surgery'><Link to={'/treatment/surgery'} className='imgLink'>Операции</Link></div>
+                    <div className='imgWithLink-devices'><Link to={'/treatment/devices'} className='imgLink'>Контроль аритмий</Link></div>
+                    <div className='imgWithLink-lifestyle'><Link to={'/treatment/lifestyle'} className='imgLink'>Образ жизни</Link></div>
+                </div>
+                <div className='quoteStyle'>
                 <div className="textGrey">
-                    <p>ГКМП — это диагноз, а не приговор. Это особенность вашего сердца, которая требует внимания, 
-                        но не должна отбирать радость жизни. ГКМП — хроническое состояние, которое сегодня может быть контролируемым. 
-                        Эффективность лечения основана на доказательной медицине и точной стратификации рисков. 
-                        Главная задача — перевести диагноз в стадию устойчивой компенсации и продолжать жить активной жизнью.
+                    <p><b>ГКМП — это диагноз, а не приговор. Это особенность вашего сердца, которая требует внимания, 
+                        но не должна отбирать радость жизни. Эффективность лечения основана на доказательной медицине и точной 
+                        стратификации рисков. 
+                        Главная задача — перевести диагноз в стадию устойчивой компенсации и продолжать жить активной жизнью.</b>
                     </p>
+                </div>
                 </div>
             </div>
             </div>

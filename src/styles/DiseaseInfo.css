@@ -1,5 +1,5 @@
 .generalStyle{
-  margin: 70px 100px 0px 100px;
+  margin: 70px 100px 20px 100px;
   color: grey;
   word-wrap: break-word;
   font-family: "Open Sans", "CMU Modern Serif Roman", "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
@@ -73,6 +73,118 @@ img {
 
 a {
   color: #5a5f91;
+}
+
+.quoteStyle {
+  background-color: #f0f0f3; 
+  border-radius: 25px;
+  width: 100%;
+  padding: 20px;
+}
+
+.cardStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: fit-content;
+}
+
+.imgWithLink {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.imgWithLink-drugs {
+  background-size: cover;
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+  align-content: center;
+  text-align: center;
+  background-image: url('../data/images/drugforlink.jpg');
+}
+
+.imgWithLink-surgery {
+  background-size: cover;
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+  align-content: center;
+  text-align: center;
+  background-image: url('../data/images/surgeryforlink.jpg');
+}
+
+.imgWithLink-devices {
+  background-size: cover;
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+  align-content: center;
+  text-align: center;
+  background-image: url('../data/images/devicesforlink.jpg');
+}
+
+.imgWithLink-lifestyle {
+  background-size: cover;
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+  align-content: center;
+  text-align: center;
+  background-image: url('../data/images/lifestyleforlink.jpg');
+}
+
+.imgWithLink-symptoms {
+  background-size: cover;
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+  align-content: center;
+  text-align: center;
+  background-image: url('../data/images/symptomsforlink.jpg');
+}
+
+.imgWithLink-examination {
+  background-size: cover;
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+  align-content: center;
+  text-align: center;
+  background-image: url('../data/images/examinationforlink.jpg');
+}
+
+.imgWithLink-progression {
+  background-size: cover;
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+  align-content: center;
+  text-align: center;
+  background-image: url('../data/images/chartforlink.jpg');
+}
+
+.imgWithLink-what {
+  background-size: cover;
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+  align-content: center;
+  text-align: center;
+  background-image: url('../data/images/heartforlink.jpg');
+}
+
+.imgLink {
+  color: rgb(45, 45, 45);
+  background-color: #f0f0f3;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 @media (max-width: 769px){
