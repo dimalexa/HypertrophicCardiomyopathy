@@ -7,6 +7,7 @@ import normal from '../../data/images/normalheart.png';
 import hcmp_heart from '../../data/images/hcmp_heart.png';
 import EchoDoppler from '../../data/images/EchoDoppler.gif';
 import CTmotion from '../../data/images/CTmotion.gif';
+import Ventriculogramma from '../../data/images/ventriculogramm.gif';
 
 export default function WhatIsHCMP(){
     return (
@@ -82,6 +83,7 @@ export default function WhatIsHCMP(){
                 </div>
                 <img src={EchoDoppler}></img>
                 <img src={CTmotion}></img>
+                <img src={Ventriculogramma}></img>
                 </div>
                 </div>
                 <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
