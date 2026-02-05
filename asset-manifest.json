@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/HypertrophicCardiomyopathy/static/css/main.d630bb02.css",
-    "main.js": "/HypertrophicCardiomyopathy/static/js/main.b8d45ea4.js",
+    "main.js": "/HypertrophicCardiomyopathy/static/js/main.8110da41.js",
     "static/js/453.52d2080d.chunk.js": "/HypertrophicCardiomyopathy/static/js/453.52d2080d.chunk.js",
+    "static/media/ventriculogramm.gif": "/HypertrophicCardiomyopathy/static/media/ventriculogramm.4cc40992f3bf063c48a8.gif",
     "static/media/CTmotion.gif": "/HypertrophicCardiomyopathy/static/media/CTmotion.cfcfbddda8c78d4a3295.gif",
     "static/media/smoked-vegetable-slices-aubergine-tomato-bell-pepper-onion.jpg": "/HypertrophicCardiomyopathy/static/media/smoked-vegetable-slices-aubergine-tomato-bell-pepper-onion.de2a2ebcf7ccf46783ae.jpg",
     "static/media/chartforlink.jpg": "/HypertrophicCardiomyopathy/static/media/chartforlink.f6a8803de3298d9cacca.jpg",
@@ -45,11 +46,11 @@
     "static/media/ECS.jpg": "/HypertrophicCardiomyopathy/static/media/ECS.ee6cc2351f6f9b139e85.jpg",
     "index.html": "/HypertrophicCardiomyopathy/index.html",
     "main.d630bb02.css.map": "/HypertrophicCardiomyopathy/static/css/main.d630bb02.css.map",
-    "main.b8d45ea4.js.map": "/HypertrophicCardiomyopathy/static/js/main.b8d45ea4.js.map",
+    "main.8110da41.js.map": "/HypertrophicCardiomyopathy/static/js/main.8110da41.js.map",
     "453.52d2080d.chunk.js.map": "/HypertrophicCardiomyopathy/static/js/453.52d2080d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d630bb02.css",
-    "static/js/main.b8d45ea4.js"
+    "static/js/main.8110da41.js"
   ]
 }
