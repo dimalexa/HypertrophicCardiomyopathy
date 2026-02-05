@@ -6,17 +6,6 @@
   min-height: 100vh;
 }
 
-.blockGrey{
-  padding: 30px 100px;
-  background-color: grey;
-  height: fit-content;
-}
-
-.blockRed{
-  padding: 30px 100px;
-  background-color: IndianRed;
-  height: fit-content;
-}
 
 .blockWhite{
   padding-top: 30px;
@@ -51,23 +40,10 @@
   padding: 10%;
 }
 
-.textWhite{
-  flex-grow: 1;
-  margin-right: 10%;
-  color: white;
-}
-
 .textGrey{
   padding: 0px 50px;
   margin-right: 10;
   color: #696969;
-}
-
-.textHeaderWhite{
-  color: white;
-  font-weight: bold;
-  font-size: 40px;
-  text-align: center;
 }
 
 .textHeaderGrey{
@@ -75,12 +51,6 @@
   font-weight: bold;
   font-size: 40px;
   text-align: center;
-}
-
-.textSubheaderWhite{
-  color: white;
-  font-weight: bold;
-  font-size: 30px;
 }
 
 .textSubheaderGrey{
@@ -108,54 +78,31 @@ a {
 @media (max-width: 769px){
   .generalStyle{
     margin: 70px 5px 0px 5px;
-  font-size: 18px;
-  }
-  .blockGrey{
-  padding: 10px 10px;
-  height: fit-content;
-  }
-
-  .blockRed{
-    padding-top: 80px;
-    padding-left: 10px;
-    height: fit-content;
-    padding-bottom: 10px;
+    font-size: 16px;
   }
 
   .blockWhite{
-    padding: 10px 10px;
     background-color: white;
     height: fit-content;
   }
 
   .blockWithImage{
-    padding: 20px 10px;
-    height: fit-content;
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-between;
     word-wrap: break-word;  
-  }
-  .textHeaderWhite{
-    font-size: 25px;
   }
 
   .textHeaderGrey{
-    font-size: 25px;
-  }
-
-  .textSubheaderWhite{
-    font-size: 23px;
+    font-size: 24px;
   }
 
   .textSubheaderGrey{
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .textMiniheaderGrey{
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .smallImage{
