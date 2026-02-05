@@ -79,7 +79,7 @@ a {
 .quoteStyle {
   background-color: #f0f0f3; 
   border-radius: 25px;
-  width: 100%;
+  width: calc(100% - 20px);
   padding: 20px;
 }
 
@@ -200,7 +200,7 @@ a {
 
 @media (max-width: 769px){
   .generalStyle{
-    padding: 70px 5px 0px 5px;
+    padding: 70px 5px 20px 5px;
     font-size: 16px;
   }
 
@@ -265,28 +265,28 @@ a {
   }
 
   .imgWithLink-lifestyle {
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
   }
 
   .imgWithLink-progression {
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
   }
 
   .imgWithLink-symptoms {
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
   }
 
   .imgWithLink-what {
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
   }
 
   .imgWithLink-examination {
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
   }
 
   .cardStyle {
