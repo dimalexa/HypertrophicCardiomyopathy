@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/HypertrophicCardiomyopathy/static/css/main.ab113b23.css",
-    "main.js": "/HypertrophicCardiomyopathy/static/js/main.714dc571.js",
+    "main.css": "/HypertrophicCardiomyopathy/static/css/main.db714974.css",
+    "main.js": "/HypertrophicCardiomyopathy/static/js/main.f88cc806.js",
     "static/js/453.52d2080d.chunk.js": "/HypertrophicCardiomyopathy/static/js/453.52d2080d.chunk.js",
     "static/media/smoked-vegetable-slices-aubergine-tomato-bell-pepper-onion.jpg": "/HypertrophicCardiomyopathy/static/media/smoked-vegetable-slices-aubergine-tomato-bell-pepper-onion.de2a2ebcf7ccf46783ae.jpg",
-    "static/media/help.jpg": "/HypertrophicCardiomyopathy/static/media/help.6f1d8a88c74a8a00771c.jpg",
+    "static/media/chartforlink.jpg": "/HypertrophicCardiomyopathy/static/media/chartforlink.f6a8803de3298d9cacca.jpg",
+    "static/media/surgeryforlink.jpg": "/HypertrophicCardiomyopathy/static/media/surgeryforlink.8a55c6dc4d7f84ee4e4f.jpg",
+    "static/media/examinationforlink.jpg": "/HypertrophicCardiomyopathy/static/media/examinationforlink.64f412bc0d07bfc4c5da.jpg",
     "static/media/runners.jpg": "/HypertrophicCardiomyopathy/static/media/runners.ea624999acd84d953ef2.jpg",
     "static/media/cardiologist.jpg": "/HypertrophicCardiomyopathy/static/media/cardiologist.8023ef509501703d63e6.jpg",
+    "static/media/drugforlink.jpg": "/HypertrophicCardiomyopathy/static/media/drugforlink.d4dacc11377aa75bbc02.jpg",
+    "static/media/worldmap.jpg": "/HypertrophicCardiomyopathy/static/media/worldmap.bc9963efd407583360d7.jpg",
+    "static/media/heartforlink.jpg": "/HypertrophicCardiomyopathy/static/media/heartforlink.aa418179936e188c4c78.jpg",
     "static/media/vaccination.jpg": "/HypertrophicCardiomyopathy/static/media/vaccination.702f8679f582c8eb0b37.jpg",
     "static/media/flight.jpg": "/HypertrophicCardiomyopathy/static/media/flight.3ee91aa77d6b1586f2a5.jpg",
     "static/media/drugs(1).jpg": "/HypertrophicCardiomyopathy/static/media/drugs(1).9cfd7448c4dfcecc36f6.jpg",
@@ -23,9 +28,13 @@
     "static/media/dyspnea.jpg": "/HypertrophicCardiomyopathy/static/media/dyspnea.123cb294fc5d4860574a.jpg",
     "static/media/syncope.jpg": "/HypertrophicCardiomyopathy/static/media/syncope.ae5909cffb3499b90633.jpg",
     "static/media/stenokardiya.jpg": "/HypertrophicCardiomyopathy/static/media/stenokardiya.061e60b2898ade69a575.jpg",
+    "static/media/devicesforlink.jpg": "/HypertrophicCardiomyopathy/static/media/devicesforlink.d557683aa5fa5c8d124c.jpg",
     "static/media/stetoscope.jpg": "/HypertrophicCardiomyopathy/static/media/stetoscope.3d9b362918e0e60c839d.jpg",
     "static/media/septalnaya-myoectomia.jpg": "/HypertrophicCardiomyopathy/static/media/septalnaya-myoectomia.c3cdcf38df865b3d074e.jpg",
     "static/media/analysis.jpg": "/HypertrophicCardiomyopathy/static/media/analysis.985ddb987a59373dcae5.jpg",
+    "static/media/symptomsforlink.jpg": "/HypertrophicCardiomyopathy/static/media/symptomsforlink.1b5261704800d96d2335.jpg",
+    "static/media/help.jpg": "/HypertrophicCardiomyopathy/static/media/help.f3eb427ebdb342143fc2.jpg",
+    "static/media/lifestyleforlink.jpg": "/HypertrophicCardiomyopathy/static/media/lifestyleforlink.ce7b8bc4ffb35b6db377.jpg",
     "static/media/cardriving.jpg": "/HypertrophicCardiomyopathy/static/media/cardriving.77e679343152245195ba.jpg",
     "static/media/profession.jpg": "/HypertrophicCardiomyopathy/static/media/profession.83a777e9a62c6360179c.jpg",
     "static/media/ablation.jpg": "/HypertrophicCardiomyopathy/static/media/ablation.dc1960115c4fa50c5c0c.jpg",
@@ -33,12 +42,12 @@
     "static/media/holter.jpg": "/HypertrophicCardiomyopathy/static/media/holter.0c2bdd4c29080a86a2e6.jpg",
     "static/media/ECS.jpg": "/HypertrophicCardiomyopathy/static/media/ECS.ee6cc2351f6f9b139e85.jpg",
     "index.html": "/HypertrophicCardiomyopathy/index.html",
-    "main.ab113b23.css.map": "/HypertrophicCardiomyopathy/static/css/main.ab113b23.css.map",
-    "main.714dc571.js.map": "/HypertrophicCardiomyopathy/static/js/main.714dc571.js.map",
+    "main.db714974.css.map": "/HypertrophicCardiomyopathy/static/css/main.db714974.css.map",
+    "main.f88cc806.js.map": "/HypertrophicCardiomyopathy/static/js/main.f88cc806.js.map",
     "453.52d2080d.chunk.js.map": "/HypertrophicCardiomyopathy/static/js/453.52d2080d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab113b23.css",
-    "static/js/main.714dc571.js"
+    "static/css/main.db714974.css",
+    "static/js/main.f88cc806.js"
   ]
 }
