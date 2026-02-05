@@ -300,8 +300,9 @@ a {
   .cardHeader { 
     border-right: none;
     border-bottom: 6px solid #5a5f91;
+    border-radius: 0px 0px 25px 25px; 
   }
-  
+
   .imgLink {
     font-size: 12px;
   }
