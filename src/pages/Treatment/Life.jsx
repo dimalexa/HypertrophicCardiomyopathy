@@ -13,6 +13,7 @@ export default function Life(){
         <div>
             <HamburgerMenu />
             <div className='generalStyle'>
+                <div className="blockWhite">
                 <div className="textHeaderGrey">
                     Как ГКМП может повлиять на жизнь
                 </div>
@@ -98,6 +99,7 @@ export default function Life(){
                     <div>
                         <img className='smallImage' src={flight}></img>
                     </div>
+                </div>
                 </div>
             </div>
             </div>

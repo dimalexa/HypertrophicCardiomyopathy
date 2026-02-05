@@ -90,7 +90,8 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    word-wrap: break-word;  
+    word-wrap: break-word;
+    gap: 10px;    
   }
 
   .textHeaderGrey{
