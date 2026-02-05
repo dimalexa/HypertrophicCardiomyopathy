@@ -13,16 +13,16 @@ export default function Life(){
         <div>
             <HamburgerMenu />
             <div className='generalStyle'>
-            <div className="textGrey">
                 <div className="textHeaderGrey">
                     Как ГКМП может повлиять на жизнь
                 </div>
+                <div className="textGrey">
                 <div className='blockWithImage'>
                     <div>
                         <img className='smallImage' src={food}></img>
                     </div>
                     <div className='textBlock'>
-                        <div className='textSubheaderGrey' style={{'padding' : '10px', 'border-bottom' : '3px solid #5a5f91'}}>Диета</div>
+                        <div className='textSubheaderGrey' style={{'padding-bottom' : '10px', 'border-bottom' : '3px solid #5a5f91'}}>Диета</div>
                         <ul>
                             <li>Прием большого объема пищи может вызвать боли в грудной клетке, 
                                 особенно у пациентов с обструкцией ВТЛЖ, поэтому рекомендуют частое дробное питание.</li>
@@ -35,7 +35,7 @@ export default function Life(){
 
                 <div className='blockWithImage'>
                     <div className='textBlock'>
-                        <div className='textSubheaderGrey' style={{'padding' : '10px', 'border-bottom' : '3px solid #5a5f91'}}>Физические нагрузки</div>
+                        <div className='textSubheaderGrey' style={{'padding-bottom' : '10px', 'border-bottom' : '3px solid #5a5f91'}}>Физические нагрузки</div>
                         <ul>
                             <li>Относится только к высокоинтенсивным физическим нагрузкам и соревнованиям. 
                                 Нагрузки умеренной и легкой интенсивности рекомендуются!</li>
@@ -53,7 +53,7 @@ export default function Life(){
                         <img className='smallImage' src={profession}></img>
                     </div>
                     <div className='textBlock'>
-                        <div className='textSubheaderGrey' style={{'padding' : '10px', 'border-bottom' : '3px solid #5a5f91'}}>Профессия</div>
+                        <div className='textSubheaderGrey' style={{'padding-bottom' : '10px', 'border-bottom' : '3px solid #5a5f91'}}>Профессия</div>
                         <ul>
                             <li>Большинство пациентов с ГКМП могут продолжать обычную трудовую деятельность. 
                             Уровень физических усилий на работе должен соответствовать клиническому статусу пациента.</li>
@@ -64,7 +64,7 @@ export default function Life(){
 
                 <div className='blockWithImage'>
                     <div className='textBlock'>
-                        <div className='textSubheaderGrey' style={{'padding' : '10px', 'border-bottom' : '3px solid #5a5f91'}}>Вождение автомобиля</div>
+                        <div className='textSubheaderGrey' style={{'padding-bottom' : '10px', 'border-bottom' : '3px solid #5a5f91'}}>Вождение автомобиля</div>
                         <ul>
                             <li>Можно получать водительские права и продолжать водить машину, если нет 
                             инвалидизирующих симптомов (ограничивающих повседневную активность).</li>
@@ -80,7 +80,7 @@ export default function Life(){
                         <img className='smallImage' src={vaccination}></img>
                     </div>
                     <div className='textBlock'>
-                        <div className='textSubheaderGrey' style={{'padding' : '10px', 'border-bottom' : '3px solid #5a5f91'}}>Вакцинация</div>
+                        <div className='textSubheaderGrey' style={{'padding-bottom' : '10px', 'border-bottom' : '3px solid #5a5f91'}}>Вакцинация</div>
                         <ul>
                             <li>При отсутствии противопоказаний рекомендована ежегодная вакцинация от гриппа. 
                             Грипп вызывает много сердечно-сосудистых осложнений, поэтому стоит поберечь сердце.</li>
@@ -90,7 +90,7 @@ export default function Life(){
 
                 <div className='blockWithImage'>
                     <div className='textBlock'>
-                        <div className='textSubheaderGrey' style={{'padding' : '10px', 'border-bottom' : '3px solid #5a5f91'}}>Авиаперелеты</div>
+                        <div className='textSubheaderGrey' style={{'padding-bottom' : '10px', 'border-bottom' : '3px solid #5a5f91'}}>Авиаперелеты</div>
                         <ul>
                             <li>Большинство бессимптомных пациентов или с незначительной симптоматикой могут безопасно совершать авиаперелеты.</li>
                         </ul>

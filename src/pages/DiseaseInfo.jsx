@@ -1,5 +1,6 @@
 import HamburgerMenu from './components/Menu';
 import '../styles/DiseaseInfo.css';
+import '../styles/Main.css';
 import Contacts from './components/Contacts';
 import {infotext} from '../data/texts/diseaseinfo';
 import help from '../data/images/help.jpg';
@@ -13,8 +14,15 @@ export default function DiseaseInfo(){
                 <div className='blockWithImage' style={{'background-color' : '#f0f0f3', 'border-radius' : '25px'}}>
                     <div className="textGrey">
                         <h3><b>Гипертрофическая кардиомиопатия (ГКМП) — наиболее распространенное наследственное заболевание сердца. 
-                            Если вам поставили этот диагноз, важно понимать: вы не одиноки, 
-                            а современная кардиология обладает многими возможностями лечения.</b></h3>
+                            Если вам поставили этот диагноз, важно понимать: вы не одиноки и сейчас есть много возможностей лечения.
+                            Присоединяйтесь к сообществам по ссылке, задавайте вопросы — Вам ответят люди, которые живут с этим диагнозом уже много лет:</b></h3>
+                        <button className="navButton">
+                            <a href='https://t.me/GKMPchat' className='navButtonLink'> Сообщество в Telegram → </a>
+                        </button>
+                        <p></p>
+                        <button className="navButton">
+                            <a href='https://vk.com/club149728136' className='navButtonLink'> Сообщество в VK → </a>
+                        </button>
                     </div>
                     <img src={help} className='imageStyle'></img>
                 </div>
