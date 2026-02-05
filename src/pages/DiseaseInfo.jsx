@@ -13,7 +13,7 @@ export default function DiseaseInfo(){
         <div>
             <HamburgerMenu />
             <div className='generalStyle'>
-            
+                <p></p>
                 <div className='blockWithImage' style={{'background-color' : '#f0f0f3', 'border-radius' : '25px'}}>
                     <div className="textGrey">
                         <h3><b>Гипертрофическая кардиомиопатия (ГКМП) — наиболее распространенное наследственное заболевание сердца. 
