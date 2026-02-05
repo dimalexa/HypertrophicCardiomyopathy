@@ -5,6 +5,8 @@ import {infotext} from '../../data/texts/diseaseinfo';
 import hcmpvariants from '../../data/images/versions_illustration.png';
 import normal from '../../data/images/normalheart.png';
 import hcmp_heart from '../../data/images/hcmp_heart.png';
+import EchoDoppler from '../../data/images/EchoDoppler.gif';
+import CTmotion from '../../data/images/CTmotion.gif';
 
 export default function WhatIsHCMP(){
     return (
@@ -78,7 +80,12 @@ export default function WhatIsHCMP(){
                     </p>
                 </div>
                 </div>
+                <img src={EchoDoppler}></img>
+                <img src={CTmotion}></img>
                 </div>
+                </div>
+                <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
+                    <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 5.02.26</div>
                 </div>
             </div>
             <Contacts />

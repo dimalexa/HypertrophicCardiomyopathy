@@ -16,6 +16,9 @@ export default function Surgery(){
                 </div>
                 <TextSwitcher data={surgeries} />
             </div>
+                <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
+                    <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 5.02.26</div>
+                </div>
             </div>
             <Contacts />
         </div>

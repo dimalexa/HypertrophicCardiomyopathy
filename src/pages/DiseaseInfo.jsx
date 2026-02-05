@@ -49,7 +49,7 @@ export default function DiseaseInfo(){
                 <img src={worldmap} className='smallImage'></img>
                 </div>
                 <div className='cardStyle'>
-                <div className="textGrey" style={{'background-color' : '#f0f0f3', 'border-radius' : '25px 0px 0px 25px', 'flex-grow' : '1', 'border-right' : '6px solid #5a5f91'}}>
+                <div className="cardHeader">
                     <h2>Почему не стоит паниковать?</h2>
                 </div>
                 <div className="textGrey">
@@ -66,7 +66,7 @@ export default function DiseaseInfo(){
                 </div>
                 </div>
                 <div className='cardStyle'>
-                     <div className="textGrey" style={{'background-color' : '#f0f0f3', 'border-radius' : '25px 0px 0px 25px', 'flex-grow' : '1', 'border-right' : '6px solid #5a5f91'}}>
+                     <div className="cardHeader">
                     <h2>Что делать прямо сейчас?</h2>
                 </div>
                 <div className="textGrey">
@@ -86,10 +86,10 @@ export default function DiseaseInfo(){
                     <h2><b>Вы можете узнать больше о гипертрофической кардиомиопатии, изучив эти разделы:</b></h2>
                 </div>
                 <div className='imgWithLink'>
-                    <div className='imgWithLink-what'><Link to={'/treatment/what-is-hcm'} className='imgLink'>Патогенез</Link></div>
-                    <div className='imgWithLink-symptoms'><Link to={'/treatment/symptoms'} className='imgLink'>Симптомы</Link></div>
-                    <div className='imgWithLink-examination'><Link to={'/treatment/diagnosis'} className='imgLink'>Исследования</Link></div>
-                    <div className='imgWithLink-progression'><Link to={'/treatment/clinical-course'} className='imgLink'>Осложнения</Link></div>
+                    <div className='imgWithLink-what'><Link to={'/disease-info/what-is-hcm'} className='imgLink'>Патогенез</Link></div>
+                    <div className='imgWithLink-symptoms'><Link to={'/disease-info/symptoms'} className='imgLink'>Симптомы</Link></div>
+                    <div className='imgWithLink-examination'><Link to={'/disease-info/diagnosis'} className='imgLink'>Исследования</Link></div>
+                    <div className='imgWithLink-progression'><Link to={'/disease-info/clinical-course'} className='imgLink'>Осложнения</Link></div>
                     <div className='imgWithLink-drugs'><Link to={'/treatment/medication'} className='imgLink'>Терапия</Link></div>
                     <div className='imgWithLink-surgery'><Link to={'/treatment/surgery'} className='imgLink'>Операции</Link></div>
                     <div className='imgWithLink-devices'><Link to={'/treatment/devices'} className='imgLink'>Контроль аритмий</Link></div>
