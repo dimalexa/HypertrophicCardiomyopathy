@@ -1,7 +1,7 @@
 import HamburgerMenu from '../components/Menu';
 import TextSwitcher from '../components/TextSwitcher';
 import '../../styles/DiseaseInfo.css';
-import {dataExams, infotext} from '../../data/texts/diseaseinfo';
+import {dataExams} from '../../data/texts/diseaseinfo';
 import Contacts from '../components/Contacts';
 
 export default function Diagnosis(){
@@ -12,7 +12,7 @@ export default function Diagnosis(){
             <div className='generalStyle'>
             <div className="blockWhite">
                 <div className="textHeaderGrey">
-                    {infotext.HowDiagnosed[0]}
+                    Как ставится диагноз ГКМП?
                 </div>
                 <div className='textGrey'>
                     <p>

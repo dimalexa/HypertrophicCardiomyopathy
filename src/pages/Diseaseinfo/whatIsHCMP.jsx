@@ -1,7 +1,6 @@
 import HamburgerMenu from '../components/Menu';
 import Contacts from '../components/Contacts';
 import '../../styles/DiseaseInfo.css';
-import {infotext} from '../../data/texts/diseaseinfo';
 import hcmpvariants from '../../data/images/versions_illustration.png';
 import normal from '../../data/images/normalheart.png';
 import hcmp_heart from '../../data/images/hcmp_heart.png';
@@ -49,7 +48,7 @@ export default function WhatIsHCMP(){
                     </div>
                 <div>
                     <p>
-                        Да и сами кардиомиоциты расположены неупорядоченно, как это происходит при нормальной гипертрофии, а хаотично.  
+                        Да и сами кардиомиоциты расположены не упорядоченно, как это происходит при нормальной гипертрофии, а хаотично.  
                         Отсутствие структуры мешает двум важным процессам - кровоснабжению и распространению электрического импульса. 
                     </p>
                     <p>
@@ -81,9 +80,33 @@ export default function WhatIsHCMP(){
                     </p>
                 </div>
                 </div>
-                <img src={EchoDoppler}></img>
-                <img src={CTmotion}></img>
-                <img src={Ventriculogramma}></img>
+                <div className='blockWithImage'>
+                    <div>
+                        <p>
+                            <b>Это запись с ЭхоКГ - срез паралелльно грудине. Движущиеся цветные потоки - кровь, 
+                                красная направлена к Вам, а синяя - от Вас. Более белые части - стенки сердца, 
+                                более темные - полости камер. Стенки утолщены, а полость желудочка маленькая.</b>
+                        </p>
+                    </div>
+                    <img src={EchoDoppler}></img>
+                </div>
+                <div className='blockWithImage'>
+                    <div>
+                        <p>
+                            <b>На этой гифке изображено 3D КТ. Красным отмечены полости камер. </b>
+                        </p>
+                    </div>
+                    <img src={CTmotion}></img>
+                </div>
+                <div className='blockWithImage'>
+                    <div>
+                        <p>
+                            <b>Эта запись получена при исследовании, которое называется вентрикулография. В полость желудочков вводят 
+                                рентген-контрастное вещество и делают рентгеновские снимки. </b>
+                        </p>
+                    </div>
+                    <img src={Ventriculogramma}></img>
+                </div>
                 </div>
                 </div>
                 <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>

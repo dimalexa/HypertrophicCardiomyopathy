@@ -2,7 +2,7 @@ import HamburgerMenu from '../components/Menu';
 import TextSwitcher from '../components/TextSwitcher';
 import Contacts from '../components/Contacts';
 import '../../styles/DiseaseInfo.css';
-import {infotext, dataSymptoms} from '../../data/texts/diseaseinfo';
+import {dataSymptoms} from '../../data/texts/diseaseinfo';
 
 export default function Symptoms(){
     return (
@@ -33,15 +33,17 @@ export default function Symptoms(){
 
             <div className="blockWhite">
                 <div className="textHeaderGrey">
-                    {infotext.RedFlags[0]}
+                    Когда стоит обратиться к врачу?
                 </div>
             </div>
             <div className="blockWhite">
                  <div className="textGrey">
-                    <p>{infotext.RedFlags[1]}</p>
+                    <p>Однако есть “красные флаги”, когда к врачу лучше обратиться раньше чем позже:</p>
                     <ul>
-                    <li>{infotext.RedFlags[2]}</li>
-                    <li>{infotext.RedFlags[3]}</li>
+                    <li>Когда симптомы ухудшились за короткий период — появился новый вид сердцебиений, стала 
+                        выраженней стенокардия (удается пройти без боли меньшее расстояние), одышка возникает быстрее чем раньше.</li>
+                    <li>Когда симптомы стали сочетаться — сердцебиения стали сопровождаться одышкой или головокружением, 
+                        это значит что аритмии стали значительно влиять на способность сердца качать кровь.</li>
                     </ul>
                 </div>
             </div>
