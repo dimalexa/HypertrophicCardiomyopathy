@@ -6,6 +6,7 @@ import profession from '../data/images/profession.jpg';
 import driving from '../data/images/cardriving.jpg';
 import vaccination from '../data/images/vaccination.jpg';
 import flight from '../data/images/flight.jpg';
+import pregnant from '../data/images/pregnant.jpg';
 import Contacts from './components/Contacts';
 import { Link } from 'react-router-dom';
 
@@ -131,16 +132,19 @@ export default function Life(){
                         </ul>
                     </div>
                     <div>
-                        <img className='smallImage' src={flight}></img>
+                        <img className='smallImage' src={pregnant}></img>
                     </div>
-                </div>
 
-                <p>
-                    Изменение образа жизни - это очень важно!:
-                </p>
                 <button className="navButton">
                     <Link to={'/life/surgery'} className='navButtonLink'> Почитать про операции → </Link>
                 </button>
+                <button className="navButton">
+                    <Link to={'/life/drugs'} className='navButtonLink'> Почитать про терапию → </Link>
+                </button>
+                <button className="navButton">
+                    <Link to={'/life/devices'} className='navButtonLink'> Почитать про имплантируемые устройства → </Link>
+                </button>
+                </div>
             </div>
                 <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
                     <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 5.02.26</div>
