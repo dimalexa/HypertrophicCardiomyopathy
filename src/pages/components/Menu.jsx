@@ -75,11 +75,12 @@ const HamburgerMenu = () => {
         { id: 23, label: 'Диагностика', link: '/disease-info/diagnosis' },
         { id: 24, label: 'Течение болезни', link: '/disease-info/clinical-course' },
       ], },
-    { id: 3, label: 'Жизнь с ГКМП', link: '/treatment', subItems: [
-        { id: 31, label: 'Терапия', link: '/treatment/medication' },
-        { id: 32, label: 'Операции', link: '/treatment/surgery' },
-        { id: 33, label: 'Имплантируемые устройства', link: '/treatment/devices' },
-        { id: 34, label: 'Образ жизни', link: '/treatment/lifestyle' },
+    { id: 3, label: 'Жизнь с ГКМП', link: '/life', subItems: [
+        { id: 31, label: 'Образ жизни', link: '/life/treatment' },
+        { id: 32, label: 'Терапия', link: '/life/medication' },
+        { id: 33, label: 'Операции', link: '/life/surgery' },
+        { id: 34, label: 'Имплантируемые устройства', link: '/life/devices' },
+        { id: 35, label: 'Истории пациентов', link: '/life/history' },
       ], },
     { id: 4, label: 'Программы', link: '/legal-rights' },
     { id: 5, label: 'О сайте', link: '/about' },

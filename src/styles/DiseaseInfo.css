@@ -76,6 +76,17 @@ a {
   color: #5a5f91;
 }
 
+.HistoryText{
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
+  background-color: #f0f0f3;
+  color: #696969;
+  padding: 5%;
+  border-radius: 0px 0px 25px 25px;
+  border-top: 6px solid #5a5f91;
+  margin-top: 20px;
+}
+
 .quoteStyle {
   background-color: #f0f0f3; 
   border-radius: 25px;
@@ -196,6 +207,30 @@ a {
   border-radius: 10px;
   font-weight: bold;
   text-decoration: none;
+}
+
+.navButton {
+  padding: 8px 30px;
+  border: 1px solid #5a5f91;
+  color: #5a5f91;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-family: "Open Sans", "CMU Modern Serif Roman";
+  background: white;
+}
+
+.navButton:hover {
+  background:  #5a5f91;
+}
+
+.navButtonLink {
+  color: #5a5f91;
+}
+
+.navButtonLink:hover {
+  color: white;
 }
 
 @media (max-width: 769px){

@@ -3,6 +3,7 @@ import TextSwitcher from '../components/TextSwitcher';
 import Contacts from '../components/Contacts';
 import '../../styles/DiseaseInfo.css';
 import {devices} from '../../data/texts/treatment';
+import { Link } from 'react-router-dom';
 
 export default function Devices(){
     return (
@@ -26,6 +27,7 @@ export default function Devices(){
                     <li>Если {'<'} 4% и присутствуют перечисленные 3 критерия, решение принимается индивидуально.</li>
                     <li>После миоэктомии эта шкала неприменима, так как используемые критерии скорректированы операцией.
                         Тогда риски оценивают по другим шкалам.После этанольной септальной абляцией она все ещё может использоваться.</li>
+                    <li>Также шкала не применяется у детей до 16 лет.</li>
                 </ol>
                 <p>Риск стоит переоценивать каждые 1-2 года, или если что-то поменялось 
                     (ухудшились симптомы, была проведена какая-либо операция, возникло другое заболевание).</p>

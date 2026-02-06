@@ -1,9 +1,7 @@
 import HamburgerMenu from './components/Menu';
 import '../styles/DiseaseInfo.css';
-import '../styles/Main.css';
 import Contacts from './components/Contacts';
 import { Link } from 'react-router-dom';
-import {infotext} from '../data/texts/diseaseinfo';
 import help from '../data/images/help.jpg';
 import worldmap from '../data/images/worldmap.jpg';
 import drugforlink from '../data/images/drugforlink.jpg';
@@ -67,19 +65,22 @@ export default function DiseaseInfo(){
                 </div>
                 <div className='cardStyle'>
                      <div className="cardHeader">
-                    <h2>Что делать прямо сейчас?</h2>
+                    <h2>Что можно сделать сейчас?</h2>
                 </div>
                 <div className="textGrey">
                     <ol>
-                        <li><b>Найдите своего врача.</b> Ищите кардиолога, который специализируется на ГКМП или наследственных заболеваниях сердца. 
-                            Вы имеете право на второе мнение.</li>
+                        <li><b>Найдите своего врача.</b> Ищите кардиолога, который специализируется на ГКМП или наследственных заболеваниях сердца.</li>
                         <li><b>Задавайте вопросы.</b> Составьте список всего, что вас волнует, перед приемом. «Что означает моя конкретная ситуация?»,
                              «Какая физическая активность мне полезна?», «Как часто нужно приходить на осмотр?».</li>
                         <li><b>Обращайтесь в сообщества.</b> Существуют пациентские организации и проверенные онлайн-ресурсы, 
-                            где можно пообщаться с теми, кто уже много лет живет с ГКМП. Ссылки на найденные выложены на главной странице.</li>
+                            где можно пообщаться с теми, кто уже много лет живет с ГКМП. Ссылки на найденные выложены в контактах внизу страницы и вверху этой страницы.</li>
                         <li><b>Прочитайте информацию на этом сайте.</b>Тут собраны краткие выжимки проверенной полезной информации, 
                         которая может помочь Вам понять своё заболевание и как с ним жить</li>
+                        <li><b>Прочитайте истории других людей. </b> Они есть на сайте в разделе 'Жизнь с ГКМП'. Или перейдите по кнопке ниже:</li>
                     </ol>
+                    <button className="navButton">
+                            <Link to={'/life/history'} className='navButtonLink'> Почитать истории → </Link>
+                    </button>
                 </div>
                 </div>
                 <div className='textGrey' style={{'padding' : '20px 0px', 'text-align' : 'center'}}>
@@ -88,12 +89,12 @@ export default function DiseaseInfo(){
                 <div className='imgWithLink'>
                     <div className='imgWithLink-what'><Link to={'/disease-info/what-is-hcm'} className='imgLink'>Патогенез</Link></div>
                     <div className='imgWithLink-symptoms'><Link to={'/disease-info/symptoms'} className='imgLink'>Симптомы</Link></div>
-                    <div className='imgWithLink-examination'><Link to={'/disease-info/diagnosis'} className='imgLink'>Исследования</Link></div>
+                    <div className='imgWithLink-examination'><Link to={'/disease-info/diagnosis'} className='imgLink'>Диагностика</Link></div>
                     <div className='imgWithLink-progression'><Link to={'/disease-info/clinical-course'} className='imgLink'>Осложнения</Link></div>
-                    <div className='imgWithLink-drugs'><Link to={'/treatment/medication'} className='imgLink'>Терапия</Link></div>
-                    <div className='imgWithLink-surgery'><Link to={'/treatment/surgery'} className='imgLink'>Операции</Link></div>
-                    <div className='imgWithLink-devices'><Link to={'/treatment/devices'} className='imgLink'>Контроль аритмий</Link></div>
-                    <div className='imgWithLink-lifestyle'><Link to={'/treatment/lifestyle'} className='imgLink'>Образ жизни</Link></div>
+                    <div className='imgWithLink-drugs'><Link to={'/life/medication'} className='imgLink'>Терапия</Link></div>
+                    <div className='imgWithLink-surgery'><Link to={'/life/surgery'} className='imgLink'>Операции</Link></div>
+                    <div className='imgWithLink-devices'><Link to={'/life/devices'} className='imgLink'>Контроль аритмий</Link></div>
+                    <div className='imgWithLink-lifestyle'><Link to={'/life'} className='imgLink'>Образ жизни</Link></div>
                 </div>
                 <div className='quoteStyle'>
                 <div className="textGrey">

@@ -3,6 +3,7 @@ import TextSwitcher from '../components/TextSwitcher';
 import '../../styles/DiseaseInfo.css';
 import {drugs} from '../../data/texts/treatment';
 import Contacts from '../components/Contacts';
+import { Link } from 'react-router-dom';
 
 export default function Drugs(){
     return (
@@ -53,6 +54,14 @@ export default function Drugs(){
             </div>
 
             <TextSwitcher data={drugs} />
+
+            <p>
+                    Если лекарства не помогают или есть какие-то другие показания, то рассматривают возможность операции:
+            </p>
+            <button className="navButton">
+                <Link to={'/life/surgery'} className='navButtonLink'> Почитать про операции → </Link>
+            </button>
+            
                 <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
                     <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 5.02.26</div>
                 </div>

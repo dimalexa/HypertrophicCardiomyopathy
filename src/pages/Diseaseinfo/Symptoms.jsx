@@ -3,6 +3,7 @@ import TextSwitcher from '../components/TextSwitcher';
 import Contacts from '../components/Contacts';
 import '../../styles/DiseaseInfo.css';
 import {dataSymptoms} from '../../data/texts/diseaseinfo';
+import { Link } from 'react-router-dom';
 
 export default function Symptoms(){
     return (
@@ -38,7 +39,7 @@ export default function Symptoms(){
             </div>
             <div className="blockWhite">
                  <div className="textGrey">
-                    <p>Однако есть “красные флаги”, когда к врачу лучше обратиться раньше чем позже:</p>
+                    <p>Однако есть “красные флаги”, когда к врачу лучше обратиться пораньше:</p>
                     <ul>
                     <li>Когда симптомы ухудшились за короткий период — появился новый вид сердцебиений, стала 
                         выраженней стенокардия (удается пройти без боли меньшее расстояние), одышка возникает быстрее чем раньше.</li>
@@ -46,6 +47,10 @@ export default function Symptoms(){
                         это значит что аритмии стали значительно влиять на способность сердца качать кровь.</li>
                     </ul>
                 </div>
+                <p>Кроме симптомов, врачу диагноз помогают поставить различные исследования. Прочитать про некоторые из них и о непростом процессе диагностики можно ниже:</p>
+                <button className="navButton">
+                            <Link to={'/disease-info/diagnosis'} className='navButtonLink'> Почитать про диагностику → </Link>
+                </button>
             </div>
                 <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
                     <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 5.02.26</div>

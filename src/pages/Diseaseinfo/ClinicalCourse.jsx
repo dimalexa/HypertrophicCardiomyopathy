@@ -1,6 +1,7 @@
 import HamburgerMenu from '../components/Menu';
 import '../../styles/DiseaseInfo.css';
 import Contacts from '../components/Contacts';
+import { Link } from 'react-router-dom';
 
 export default function ClinicalCourse(){
     return (
@@ -25,6 +26,20 @@ export default function ClinicalCourse(){
                         повышен, но его можно оценить и принять соответствующие меры. Другая частая аритмия — фибрилляция предсердий, которая повышает риск инсульта.</p>
                     <p>«Переход» в стадию «выгорания»: У небольшого процента пациентов (чаще в пожилом возрасте) утолщенная мышца со временем может истончаться, терять 
                         силу и растягиваться, приводя к сердечной недостаточности (сердце плохо качает кровь). В этой стадии лечение схоже с терапией других видов сердечной недостаточности.</p>
+                    <p>Сейчас есть много способов повлиять на болезнь, как бы она не текла и как бы не развивалась.</p>
+                    <button className="navButton">
+                        <Link to={'/life/medication'} className='navButtonLink'> Лекарства → </Link>
+                    </button>
+                    <button className="navButton">
+                        <Link to={'/life/surgery'} className='navButtonLink'> Операции → </Link>
+                    </button>
+                    <button className="navButton">
+                        <Link to={'/life/devices'} className='navButtonLink'> Имплантируемые устройства → </Link>
+                    </button>
+                    И обязательно:
+                    <button className="navButton">
+                        <Link to={'/life'} className='navButtonLink'> Жизнь с ГКМП → </Link>
+                    </button>
                 </div>
             </div>
                 <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>

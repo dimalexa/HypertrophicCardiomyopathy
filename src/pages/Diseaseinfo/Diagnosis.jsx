@@ -3,6 +3,7 @@ import TextSwitcher from '../components/TextSwitcher';
 import '../../styles/DiseaseInfo.css';
 import {dataExams} from '../../data/texts/diseaseinfo';
 import Contacts from '../components/Contacts';
+import { Link } from 'react-router-dom';
 
 export default function Diagnosis(){
     return (
@@ -40,6 +41,11 @@ export default function Diagnosis(){
             </div>
 
             <TextSwitcher data={dataExams}/>
+
+            <p>К сожалению, любое исследование даёт информацию лишь о сегодняшнем состоянии, сложно предсказать, каким будет ход болезни. Прочитать про варианты течения можно по ссылке ниже:</p>
+            <button className="navButton">
+                <Link to={'/disease-info/clinical-course'} className='navButtonLink'> Почитать про варианты течения → </Link>
+            </button>
                 <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
                     <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 5.02.26</div>
                 </div>

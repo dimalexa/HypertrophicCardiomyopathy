@@ -122,6 +122,7 @@
   transition: all 0.3s ease;
   font-size: 16px;
   font-family: "Open Sans", "CMU Modern Serif Roman";
+  background: white;
 }
 
 .navButton:hover {
@@ -143,7 +144,7 @@
 
   .MainNav {
   width: calc(100vw - 20%);
-  height: 200vw;
+  height: 250vw;
   }
 
   .MainNews {
