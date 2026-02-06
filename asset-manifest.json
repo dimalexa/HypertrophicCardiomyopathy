@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/HypertrophicCardiomyopathy/static/css/main.6d3efe01.css",
-    "main.js": "/HypertrophicCardiomyopathy/static/js/main.46aab290.js",
+    "main.css": "/HypertrophicCardiomyopathy/static/css/main.fd9572f0.css",
+    "main.js": "/HypertrophicCardiomyopathy/static/js/main.4aa89b82.js",
     "static/js/453.52d2080d.chunk.js": "/HypertrophicCardiomyopathy/static/js/453.52d2080d.chunk.js",
     "static/media/ventriculogramm.gif": "/HypertrophicCardiomyopathy/static/media/ventriculogramm.4cc40992f3bf063c48a8.gif",
     "static/media/CTmotion.gif": "/HypertrophicCardiomyopathy/static/media/CTmotion.cfcfbddda8c78d4a3295.gif",
     "static/media/smoked-vegetable-slices-aubergine-tomato-bell-pepper-onion.jpg": "/HypertrophicCardiomyopathy/static/media/smoked-vegetable-slices-aubergine-tomato-bell-pepper-onion.de2a2ebcf7ccf46783ae.jpg",
     "static/media/chartforlink.jpg": "/HypertrophicCardiomyopathy/static/media/chartforlink.f6a8803de3298d9cacca.jpg",
     "static/media/surgeryforlink.jpg": "/HypertrophicCardiomyopathy/static/media/surgeryforlink.8a55c6dc4d7f84ee4e4f.jpg",
+    "static/media/pregnant.jpg": "/HypertrophicCardiomyopathy/static/media/pregnant.cb42408d9d16f9284ce4.jpg",
     "static/media/examinationforlink.jpg": "/HypertrophicCardiomyopathy/static/media/examinationforlink.64f412bc0d07bfc4c5da.jpg",
     "static/media/runners.jpg": "/HypertrophicCardiomyopathy/static/media/runners.ea624999acd84d953ef2.jpg",
     "static/media/cardiologist.jpg": "/HypertrophicCardiomyopathy/static/media/cardiologist.8023ef509501703d63e6.jpg",
@@ -22,12 +23,14 @@
     "static/media/Echo1.png": "/HypertrophicCardiomyopathy/static/media/Echo1.8d6203dd7f8971f5cb7d.png",
     "static/media/cmunrm.ttf": "/HypertrophicCardiomyopathy/static/media/cmunrm.8ff5cee913df84291549.ttf",
     "static/media/Montserrat Alternates.ttf": "/HypertrophicCardiomyopathy/static/media/Montserrat Alternates.9e32cee38e5268e05e87.ttf",
+    "static/media/heartsection.png": "/HypertrophicCardiomyopathy/static/media/heartsection.ba42c81bf226ed721762.png",
     "static/media/cmunss.ttf": "/HypertrophicCardiomyopathy/static/media/cmunss.49dca67a7a3781c3ca69.ttf",
     "static/media/versions_illustration.png": "/HypertrophicCardiomyopathy/static/media/versions_illustration.a3675527d788c965a1aa.png",
+    "static/media/heartwithhcmp.png": "/HypertrophicCardiomyopathy/static/media/heartwithhcmp.4db3555ace89b1a46b51.png",
+    "static/media/normalheart.png": "/HypertrophicCardiomyopathy/static/media/normalheart.28e9bd90a76b56c0cfdf.png",
     "static/media/sarcomere.png": "/HypertrophicCardiomyopathy/static/media/sarcomere.81e013a75993326541d9.png",
     "static/media/MRI1.png": "/HypertrophicCardiomyopathy/static/media/MRI1.63ef11c7fa96b5fe3b88.png",
     "static/media/hcmp_heart.png": "/HypertrophicCardiomyopathy/static/media/hcmp_heart.f4e07003420638662886.png",
-    "static/media/normalheart.png": "/HypertrophicCardiomyopathy/static/media/normalheart.c5eea2193ce9a8f006ce.png",
     "static/media/ECG1.jpg": "/HypertrophicCardiomyopathy/static/media/ECG1.585f7b4b197973b386e9.jpg",
     "static/media/dyspnea.jpg": "/HypertrophicCardiomyopathy/static/media/dyspnea.123cb294fc5d4860574a.jpg",
     "static/media/syncope.jpg": "/HypertrophicCardiomyopathy/static/media/syncope.ae5909cffb3499b90633.jpg",
@@ -46,12 +49,12 @@
     "static/media/holter.jpg": "/HypertrophicCardiomyopathy/static/media/holter.0c2bdd4c29080a86a2e6.jpg",
     "static/media/ECS.jpg": "/HypertrophicCardiomyopathy/static/media/ECS.ee6cc2351f6f9b139e85.jpg",
     "index.html": "/HypertrophicCardiomyopathy/index.html",
-    "main.6d3efe01.css.map": "/HypertrophicCardiomyopathy/static/css/main.6d3efe01.css.map",
-    "main.46aab290.js.map": "/HypertrophicCardiomyopathy/static/js/main.46aab290.js.map",
+    "main.fd9572f0.css.map": "/HypertrophicCardiomyopathy/static/css/main.fd9572f0.css.map",
+    "main.4aa89b82.js.map": "/HypertrophicCardiomyopathy/static/js/main.4aa89b82.js.map",
     "453.52d2080d.chunk.js.map": "/HypertrophicCardiomyopathy/static/js/453.52d2080d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d3efe01.css",
-    "static/js/main.46aab290.js"
+    "static/css/main.fd9572f0.css",
+    "static/js/main.4aa89b82.js"
   ]
 }
