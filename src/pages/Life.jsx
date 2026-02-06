@@ -134,17 +134,19 @@ export default function Life(){
                     <div>
                         <img className='smallImage' src={pregnant}></img>
                     </div>
-
+                </div>
                 <button className="navButton">
                     <Link to={'/life/surgery'} className='navButtonLink'> Почитать про операции → </Link>
                 </button>
+                <p></p>
                 <button className="navButton">
                     <Link to={'/life/drugs'} className='navButtonLink'> Почитать про терапию → </Link>
                 </button>
+                <p></p>
                 <button className="navButton">
                     <Link to={'/life/devices'} className='navButtonLink'> Почитать про имплантируемые устройства → </Link>
                 </button>
-                </div>
+                <p></p>
             </div>
                 <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
                     <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 5.02.26</div>
