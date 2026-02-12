@@ -98,7 +98,7 @@ export default function Life(){
                         <div className='textSubheaderGrey' style={{'padding-bottom' : '10px', 'border-bottom' : '3px solid #5a5f91'}}>Авиаперелеты</div>
                         <ul>
                             <li>Большинство бессимптомных пациентов или с незначительной симптоматикой могут безопасно совершать авиаперелеты.</li>
-                            <li>Если у Вас установлен ИКД или ЭКС, не забывайте в аэропорт карточку владельца этого устройства.</li>
+                            <li>Если у Вас установлен ИКД или ЭКС, не забывайте взять карточку владельца этого устройства.</li>
                         </ul>
                     </div>
                     <div>
@@ -144,12 +144,12 @@ export default function Life(){
                 </button>
                 <p></p>
                 <button className="navButton">
-                    <Link to={'/life/devices'} className='navButtonLink'> Почитать про имплантируемые устройства → </Link>
+                    <Link to={'/life/devices'} className='navButtonLink'> Почитать про контроль аритмий → </Link>
                 </button>
                 <p></p>
             </div>
                 <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
-                    <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 5.02.26</div>
+                    <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 6.02.26</div>
                 </div>
             </div>
             <Contacts />
