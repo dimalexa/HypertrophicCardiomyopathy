@@ -20,11 +20,11 @@
 
 .MainNav {
   width: calc(50vw - 20%);
-  height: 75vw;
+  height: 100vh;
   background: #5a5f91;
-  background-image: url('../data/images/cardiologist.jpg');
+  background-image: url('../data/images/backgrounddarkend.jpg');
   background-size: cover;
-  color: #5a5f91;
+  color: white;
   min-height: 100vh;
   padding: 20px 10% 0% 10%;
 }
@@ -144,7 +144,7 @@
 
   .MainNav {
   width: calc(100vw - 20%);
-  height: 250vw;
+  height: 100vh;
   }
 
   .MainNews {
