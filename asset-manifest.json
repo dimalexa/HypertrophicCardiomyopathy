@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HypertrophicCardiomyopathy/static/css/main.fd9572f0.css",
+    "main.css": "/HypertrophicCardiomyopathy/static/css/main.b1dec8fc.css",
     "main.js": "/HypertrophicCardiomyopathy/static/js/main.19342ed8.js",
     "static/js/453.52d2080d.chunk.js": "/HypertrophicCardiomyopathy/static/js/453.52d2080d.chunk.js",
     "static/media/ventriculogramm.gif": "/HypertrophicCardiomyopathy/static/media/ventriculogramm.4cc40992f3bf063c48a8.gif",
@@ -28,6 +28,7 @@
     "static/media/cmunss.ttf": "/HypertrophicCardiomyopathy/static/media/cmunss.49dca67a7a3781c3ca69.ttf",
     "static/media/versions_illustration.png": "/HypertrophicCardiomyopathy/static/media/versions_illustration.a3675527d788c965a1aa.png",
     "static/media/heartwithhcmp.png": "/HypertrophicCardiomyopathy/static/media/heartwithhcmp.4db3555ace89b1a46b51.png",
+    "static/media/backgrounddarkend.jpg": "/HypertrophicCardiomyopathy/static/media/backgrounddarkend.5ad8735f720608c4ee2f.jpg",
     "static/media/normalheart.png": "/HypertrophicCardiomyopathy/static/media/normalheart.28e9bd90a76b56c0cfdf.png",
     "static/media/sarcomere.png": "/HypertrophicCardiomyopathy/static/media/sarcomere.81e013a75993326541d9.png",
     "static/media/MRI1.png": "/HypertrophicCardiomyopathy/static/media/MRI1.63ef11c7fa96b5fe3b88.png",
@@ -50,12 +51,12 @@
     "static/media/holter.jpg": "/HypertrophicCardiomyopathy/static/media/holter.0c2bdd4c29080a86a2e6.jpg",
     "static/media/ECS.jpg": "/HypertrophicCardiomyopathy/static/media/ECS.ee6cc2351f6f9b139e85.jpg",
     "index.html": "/HypertrophicCardiomyopathy/index.html",
-    "main.fd9572f0.css.map": "/HypertrophicCardiomyopathy/static/css/main.fd9572f0.css.map",
+    "main.b1dec8fc.css.map": "/HypertrophicCardiomyopathy/static/css/main.b1dec8fc.css.map",
     "main.19342ed8.js.map": "/HypertrophicCardiomyopathy/static/js/main.19342ed8.js.map",
     "453.52d2080d.chunk.js.map": "/HypertrophicCardiomyopathy/static/js/453.52d2080d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd9572f0.css",
+    "static/css/main.b1dec8fc.css",
     "static/js/main.19342ed8.js"
   ]
 }
