@@ -26,7 +26,7 @@ export default function Surgery(){
                     <Link to={'/life/devices'} className='navButtonLink'> Почитать про имплантируемые устройства → </Link>
                 </button>
             </div>
-                <Revisor />
+                <Revisor page='Surgery' />
             </div>
             <Contacts />
         </div>

@@ -34,7 +34,7 @@ export default function Devices(){
                     (ухудшились симптомы, была проведена какая-либо операция, возникло другое заболевание).</p>
                 <TextSwitcher data={devices} />
             </div>
-                <Revisor />
+                <Revisor page='Devices' />
             </div>
             <Contacts />
         </div>

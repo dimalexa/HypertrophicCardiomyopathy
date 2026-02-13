@@ -54,7 +54,7 @@ export default function Treatment(){
                         </button>
                         <p></p>
                     </div>
-                    <Revisor />
+                    <Revisor page='Treatment' />
                 </div>
             </div>
             <Contacts />

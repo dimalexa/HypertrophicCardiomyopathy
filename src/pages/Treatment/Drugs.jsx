@@ -63,7 +63,7 @@ export default function Drugs(){
                 <Link to={'/life/surgery'} className='navButtonLink'> Почитать про операции → </Link>
             </button>
             
-                <Revisor />
+                <Revisor page='Drugs' />
             </div>
             <Contacts />
         </div>

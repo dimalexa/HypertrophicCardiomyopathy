@@ -47,7 +47,7 @@ export default function Diagnosis(){
             <button className="navButton">
                 <Link to={'/disease-info/clinical-course'} className='navButtonLink'> Почитать про варианты течения → </Link>
             </button>
-                <Revisor />
+                <Revisor page='Diagnosis'/>
             </div>
             <Contacts />
         </div>

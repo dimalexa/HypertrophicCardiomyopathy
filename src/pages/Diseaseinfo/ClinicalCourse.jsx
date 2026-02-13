@@ -53,7 +53,7 @@ export default function ClinicalCourse(){
                     </button>
                 </div>
             </div>
-            <Revisor />
+            <Revisor page='ClinicalCourse'/>
             </div>
             <Contacts />
         </div>

@@ -149,7 +149,7 @@ export default function Life(){
                 </button>
                 <p></p>
             </div>
-                <Revisor />
+                <Revisor page='Life' />
             </div>
             <Contacts />
         </div>

@@ -53,7 +53,7 @@ export default function Symptoms(){
                             <Link to={'/disease-info/diagnosis'} className='navButtonLink'> Почитать про диагностику → </Link>
                 </button>
             </div>
-                <Revisor />
+                <Revisor page='Symptoms'/>
             </div>
             <Contacts />
         </div>

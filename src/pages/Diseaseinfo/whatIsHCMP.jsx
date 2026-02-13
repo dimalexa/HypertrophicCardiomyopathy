@@ -165,7 +165,7 @@ export default function WhatIsHCMP(){
                 </div>
                 </div>
                 </div>
-                <Revisor />
+                <Revisor page='WhatIsHCMP' />
             </div>
             <Contacts />
         </div>
