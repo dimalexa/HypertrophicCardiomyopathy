@@ -1,6 +1,7 @@
 import HamburgerMenu from '../components/Menu';
 import TextSwitcher from '../components/TextSwitcher';
 import Contacts from '../components/Contacts';
+import Revisor from '../components/Revisor';
 import '../../styles/DiseaseInfo.css';
 import {dataSymptoms} from '../../data/texts/diseaseinfo';
 import { Link } from 'react-router-dom';
@@ -52,9 +53,7 @@ export default function Symptoms(){
                             <Link to={'/disease-info/diagnosis'} className='navButtonLink'> Почитать про диагностику → </Link>
                 </button>
             </div>
-                <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
-                    <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 5.02.26</div>
-                </div>
+                <Revisor />
             </div>
             <Contacts />
         </div>

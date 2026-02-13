@@ -2,6 +2,8 @@ import HamburgerMenu from '../components/Menu';
 import '../../styles/DiseaseInfo.css';
 import Contacts from '../components/Contacts';
 import { Link } from 'react-router-dom';
+import doctor from '../../data/images/doctor.jpg';
+import Revisor from '../components/Revisor';
 
 export default function Treatment(){
     return (
@@ -39,10 +41,20 @@ export default function Treatment(){
                             общем схемы лечения такие же, как и если бы у этих заболеваний причина была другая. Очень большое количество людей 
                             болеет фибрилляцией предсердий и другими состояниями, поэтому эти алгоритмы отработаны и хорошо изучены.
                         </p>
+                        <button className="navButton">
+                            <Link to={'/life/surgery'} className='navButtonLink'> Почитать про операции → </Link>
+                        </button>
+                        <p></p>
+                        <button className="navButton">
+                            <Link to={'/life/drugs'} className='navButtonLink'> Почитать про терапию → </Link>
+                        </button>
+                        <p></p>
+                        <button className="navButton">
+                            <Link to={'/life/devices'} className='navButtonLink'> Почитать про контроль аритмий → </Link>
+                        </button>
+                        <p></p>
                     </div>
-                </div>
-                <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
-                    <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 13.02.26</div>
+                    <Revisor />
                 </div>
             </div>
             <Contacts />

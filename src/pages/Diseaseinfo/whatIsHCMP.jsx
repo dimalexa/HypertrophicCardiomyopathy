@@ -1,5 +1,6 @@
 import HamburgerMenu from '../components/Menu';
 import Contacts from '../components/Contacts';
+import Revisor from '../components/Revisor';
 import { Link } from 'react-router-dom';
 import '../../styles/DiseaseInfo.css';
 import hcmpvariants from '../../data/images/versions_illustration.png';
@@ -164,9 +165,7 @@ export default function WhatIsHCMP(){
                 </div>
                 </div>
                 </div>
-                <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
-                    <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 6.02.26</div>
-                </div>
+                <Revisor />
             </div>
             <Contacts />
         </div>

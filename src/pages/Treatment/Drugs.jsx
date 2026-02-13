@@ -3,6 +3,7 @@ import TextSwitcher from '../components/TextSwitcher';
 import '../../styles/DiseaseInfo.css';
 import {drugs} from '../../data/texts/treatment';
 import Contacts from '../components/Contacts';
+import Revisor from '../components/Revisor';
 import { Link } from 'react-router-dom';
 
 export default function Drugs(){
@@ -62,9 +63,7 @@ export default function Drugs(){
                 <Link to={'/life/surgery'} className='navButtonLink'> Почитать про операции → </Link>
             </button>
             
-                <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
-                    <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 5.02.26</div>
-                </div>
+                <Revisor />
             </div>
             <Contacts />
         </div>

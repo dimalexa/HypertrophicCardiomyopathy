@@ -3,6 +3,7 @@ import TextSwitcher from '../components/TextSwitcher';
 import '../../styles/DiseaseInfo.css';
 import {surgeries} from '../../data/texts/treatment';
 import Contacts from '../components/Contacts';
+import Revisor from '../components/Revisor';
 import { Link } from 'react-router-dom';
 
 export default function Surgery(){
@@ -25,9 +26,7 @@ export default function Surgery(){
                     <Link to={'/life/devices'} className='navButtonLink'> Почитать про имплантируемые устройства → </Link>
                 </button>
             </div>
-                <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
-                    <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 5.02.26</div>
-                </div>
+                <Revisor />
             </div>
             <Contacts />
         </div>

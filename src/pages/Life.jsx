@@ -8,6 +8,7 @@ import vaccination from '../data/images/vaccination.jpg';
 import flight from '../data/images/flight.jpg';
 import pregnant from '../data/images/pregnant.jpg';
 import Contacts from './components/Contacts';
+import Revisor from './components/Revisor';
 import { Link } from 'react-router-dom';
 
 export default function Life(){
@@ -148,9 +149,7 @@ export default function Life(){
                 </button>
                 <p></p>
             </div>
-                <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
-                    <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 6.02.26</div>
-                </div>
+                <Revisor />
             </div>
             <Contacts />
         </div>

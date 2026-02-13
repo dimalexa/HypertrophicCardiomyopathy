@@ -76,7 +76,7 @@ const HamburgerMenu = () => {
         { id: 24, label: 'Течение болезни', link: '/disease-info/clinical-course' },
       ], },
     { id: 3, label: 'Жизнь с ГКМП', link: '/life', subItems: [
-        { id: 31, label: 'Образ жизни', link: '/life/treatment' },
+        { id: 31, label: 'Принципы лечения', link: '/life/treatment' },
         { id: 32, label: 'Терапия', link: '/life/medication' },
         { id: 33, label: 'Операции', link: '/life/surgery' },
         { id: 34, label: 'Имплантируемые устройства', link: '/life/devices' },

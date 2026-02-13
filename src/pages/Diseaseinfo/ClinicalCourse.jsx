@@ -2,6 +2,7 @@ import HamburgerMenu from '../components/Menu';
 import '../../styles/DiseaseInfo.css';
 import Contacts from '../components/Contacts';
 import { Link } from 'react-router-dom';
+import Revisor from '../components/Revisor';
 
 export default function ClinicalCourse(){
     return (
@@ -52,9 +53,7 @@ export default function ClinicalCourse(){
                     </button>
                 </div>
             </div>
-                <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
-                    <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>Дата последнего обновления статьи: 5.02.26</div>
-                </div>
+            <Revisor />
             </div>
             <Contacts />
         </div>
