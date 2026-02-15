@@ -1,7 +1,7 @@
 export const upd = [
     {
         id: 1,
-        date: '5.02.26',
+        date: '10.02.26',
         revisor: 'доктором таким то',
         achievements: 'к.м.н. стаж 1000+ лет.',
         page: 'ClinicalCourse'
@@ -50,7 +50,7 @@ export const upd = [
     },
     {
         id: 8,
-        date: '5.02.26',
+        date: '12.02.26',
         revisor: 'доктором таким то',
         achievements: 'к.м.н. стаж 1000+ лет.',
         page: 'Treatment'
