@@ -11,22 +11,22 @@ export default function ClinicalCourse(){
             <div className='generalStyle'>
             <div className="blockWhite">
                 <div className="textHeaderGrey">
-                    <p>Как может развиваться заболевание (варианты прогрессирования)?</p>
+                    <p>Как может развиваться заболевание?</p>
                 </div>
             </div>
             <div className="blockWhite">
                  <div className="textGrey">
-                    <div className='cardStyle' style={{'gap' : '5%'}}>
-                        <p style={{'width' : '30vw'}}> В ⅔ случаев гипертрофическая кардиомиопатия не даёт серьёзных осложнений. 
-                            Может проявляться лёгкой одышкой и изменениями в исследованиях. </p>
-                        <div className='cardHeader' style={{'height' : '50px', alignContent : 'center', 'width' : '40vw', padding: '0px', display: 'flex', justifyContent: 'center'}}> 
+                    <div className='percentCard'>
+                        <p className='percentText'> <strong>В ⅔ случаев гипертрофическая кардиомиопатия не даёт серьёзных осложнений. 
+                            Может проявляться лёгкой одышкой и изменениями в исследованиях.</strong></p>
+                        <div className='percentVolume' style={{'width' : '40vw'}}> 
                             <p>66 %</p>
                             </div>
                     </div>
 
-                    <div className='cardStyle' style={{'gap' : '5%'}}>
-                        <p style={{'width' : '30vw'}}>Но, к сожалению, бывают и осложнения:</p>
-                        <div className='cardHeader' style={{'height' : '50px', alignContent : 'center', 'width' : '20vw', padding: '0px', display: 'flex', justifyContent: 'center'}}> 
+                    <div className='percentCard'>
+                        <p className='percentText'><strong>Но, к сожалению, бывают и осложнения:</strong></p>
+                        <div className='percentVolume' style={{'width' : '20vw'}}> 
                             <p>33 %</p>
                             </div>
                     </div>
@@ -45,7 +45,7 @@ export default function ClinicalCourse(){
                     менее интенсивно, чем в норме. Особенно это важно, потому что в предсердие открывается ушко — карман, заполненный кровью. 
                     Там кровь почти не двигается (при фибрилляции), из-за чего образуются тромбы. Они попадают в левый желудочек, а 
                     оттуда в аорту и другие органы, в том числе мозг — происходит инсульт (инфаркт мозга) или инфаркты других органов.</p>
-                    <p><strong>Аневризма левого желудочка. </strong>Нечастное осложнение, чаще всего образуется при среднежелудочковой обструкции. 
+                    <p><strong>Аневризма левого желудочка. </strong>Нечастое осложнение, чаще всего образуется при среднежелудочковой обструкции. 
                     Кровь скапливается ниже места сужения и растягивает стенки. Перерастянутая часть желудочка не может хорошо сокращаться.</p>
                     
                     <button className="navButton">

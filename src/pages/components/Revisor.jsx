@@ -11,7 +11,7 @@ export default function Revisor({page}){
         }
     }
     return (
-        <div style={{'display' : 'flex', 'justify-content' : 'flex-end'}}>
+        <div style={{'display' : 'flex', 'justify-content' : 'flex-end', 'padding-top' : '20px'}}>
                     <div style={{'font-size' : '14px', 'width' : 'fit-content'}} className='quoteStyle'>
                         <div className='blockWithImage'>
                         <div>

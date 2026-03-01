@@ -100,6 +100,7 @@ a {
   align-items: center;
   justify-content: flex-start;
   height: fit-content;
+  gap: 5%;
 }
 
 .cardHeader {
@@ -110,6 +111,31 @@ a {
   padding: 0px 50px;
   margin-right: 10;
 }
+
+.percentCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: fit-content;
+  gap: 5%;
+}
+
+.percentVolume {
+  background-color : #63639a; 
+  border-radius: 0px 25px 25px 0px; 
+  border-left: 6px solid #5a5f91;
+  color: #f7f6f6;
+  margin-right: 10;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: 900;
+}
+
+.percentText {
+    width: 30vw;
+  }
 
 .imgWithLink {
   display: flex;
@@ -232,6 +258,10 @@ a {
   color: white;
 }
 
+.imgMap {
+  width: 40vw;
+}
+
 @media (max-width: 769px){
   .generalStyle{
     padding: 70px 5px 20px 5px;
@@ -340,6 +370,14 @@ a {
 
   .imgLink {
     font-size: 10px;
+  }
+
+  .percentCard {
+    flex-wrap: wrap-reverse;
+  }
+
+  .percentText {
+    width: auto;
   }
 }
 

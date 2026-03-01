@@ -71,9 +71,10 @@ const HamburgerMenu = () => {
     { id: 1, label: 'Главная', link: '/' },
     { id: 2, label: 'О болезни', link: '/disease-info', subItems: [
         { id: 21, label: 'Немного о патогенезе', link: '/disease-info/what-is-hcm' },
-        { id: 22, label: 'Симптомы', link: '/disease-info/symptoms' },
-        { id: 23, label: 'Диагностика', link: '/disease-info/diagnosis' },
-        { id: 24, label: 'Течение болезни', link: '/disease-info/clinical-course' },
+        { id: 22, label: 'Генетика', link: '/disease-info/genetics' },
+        { id: 23, label: 'Симптомы', link: '/disease-info/symptoms' },
+        { id: 24, label: 'Диагностика', link: '/disease-info/diagnosis' },
+        { id: 25, label: 'Течение болезни', link: '/disease-info/clinical-course' },
       ], },
     { id: 3, label: 'Жизнь с ГКМП', link: '/life', subItems: [
         { id: 31, label: 'Принципы лечения', link: '/life/treatment' },
@@ -82,7 +83,10 @@ const HamburgerMenu = () => {
         { id: 34, label: 'Имплантируемые устройства', link: '/life/devices' },
         { id: 35, label: 'Истории пациентов', link: '/life/history' },
       ], },
-    { id: 4, label: 'Программы', link: '/legal-rights' },
+    { id: 4, label: 'Проекты', link: '/projects', subItems: [
+        { id: 41, label: 'Дорожная карта', link: '/projects/map' },
+        { id: 42, label: 'Регистр пациентов', link: '/projects/registr' },
+      ], },
     { id: 5, label: 'О сайте', link: '/about' },
   ];
 
