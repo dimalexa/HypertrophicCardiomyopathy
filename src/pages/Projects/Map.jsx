@@ -80,7 +80,7 @@ export default function Map(){
                             {doctors.map((item) => (
                                 <div style={{'border-bottom' : '1px solid rgb(216, 216, 221)', display : 'flex', flexDirection: 'row', 
                                 padding : '20px', gap: '5%'}}>
-                                        <img src={item.photo} style={{maxWidth : '100px'}}></img>
+                                        <img src={item.photo} style={{maxWidth : '100px', height: 'auto'}}></img>
                                         <div> 
                                             <h4>{item.name}</h4>
                                             <p>{item.specialization}</p>
