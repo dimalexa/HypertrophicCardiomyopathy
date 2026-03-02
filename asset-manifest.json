@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HypertrophicCardiomyopathy/static/css/main.84b7b811.css",
-    "main.js": "/HypertrophicCardiomyopathy/static/js/main.db868967.js",
+    "main.js": "/HypertrophicCardiomyopathy/static/js/main.bb14c223.js",
     "static/js/453.7204c632.chunk.js": "/HypertrophicCardiomyopathy/static/js/453.7204c632.chunk.js",
     "static/media/ventriculogramm.gif": "/HypertrophicCardiomyopathy/static/media/ventriculogramm.4cc40992f3bf063c48a8.gif",
     "static/media/CTmotion.gif": "/HypertrophicCardiomyopathy/static/media/CTmotion.cfcfbddda8c78d4a3295.gif",
@@ -27,12 +27,14 @@
     "static/media/Echo1.png": "/HypertrophicCardiomyopathy/static/media/Echo1.8d6203dd7f8971f5cb7d.png",
     "static/media/cmunrm.ttf": "/HypertrophicCardiomyopathy/static/media/cmunrm.8ff5cee913df84291549.ttf",
     "static/media/Montserrat Alternates.ttf": "/HypertrophicCardiomyopathy/static/media/Montserrat Alternates.9e32cee38e5268e05e87.ttf",
-    "static/media/heartsection.png": "/HypertrophicCardiomyopathy/static/media/heartsection.ba42c81bf226ed721762.png",
+    "static/media/hcmpheart.png": "/HypertrophicCardiomyopathy/static/media/hcmpheart.62013630a16507b267f8.png",
     "static/media/cmunss.ttf": "/HypertrophicCardiomyopathy/static/media/cmunss.49dca67a7a3781c3ca69.ttf",
     "static/media/versions_illustration.png": "/HypertrophicCardiomyopathy/static/media/versions_illustration.a3675527d788c965a1aa.png",
-    "static/media/heartwithhcmp.png": "/HypertrophicCardiomyopathy/static/media/heartwithhcmp.4db3555ace89b1a46b51.png",
     "static/media/backgrounddarkend.jpg": "/HypertrophicCardiomyopathy/static/media/backgrounddarkend.5ad8735f720608c4ee2f.jpg",
     "static/media/normalheart.png": "/HypertrophicCardiomyopathy/static/media/normalheart.28e9bd90a76b56c0cfdf.png",
+    "static/media/hitrova.jpg": "/HypertrophicCardiomyopathy/static/media/hitrova.a4d4d539886d3a1f0610.jpg",
+    "static/media/HCM_pathogenesis.png": "/HypertrophicCardiomyopathy/static/media/HCM_pathogenesis.2a977490b0d647da16f1.png",
+    "static/media/normal_heart.png": "/HypertrophicCardiomyopathy/static/media/normal_heart.21ff077793a4df38e9ab.png",
     "static/media/sarcomere.png": "/HypertrophicCardiomyopathy/static/media/sarcomere.81e013a75993326541d9.png",
     "static/media/MRI1.png": "/HypertrophicCardiomyopathy/static/media/MRI1.63ef11c7fa96b5fe3b88.png",
     "static/media/hcmp_heart.png": "/HypertrophicCardiomyopathy/static/media/hcmp_heart.f4e07003420638662886.png",
@@ -65,11 +67,11 @@
     "static/media/ECS.jpg": "/HypertrophicCardiomyopathy/static/media/ECS.ee6cc2351f6f9b139e85.jpg",
     "index.html": "/HypertrophicCardiomyopathy/index.html",
     "main.84b7b811.css.map": "/HypertrophicCardiomyopathy/static/css/main.84b7b811.css.map",
-    "main.db868967.js.map": "/HypertrophicCardiomyopathy/static/js/main.db868967.js.map",
+    "main.bb14c223.js.map": "/HypertrophicCardiomyopathy/static/js/main.bb14c223.js.map",
     "453.7204c632.chunk.js.map": "/HypertrophicCardiomyopathy/static/js/453.7204c632.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84b7b811.css",
-    "static/js/main.db868967.js"
+    "static/js/main.bb14c223.js"
   ]
 }
