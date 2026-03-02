@@ -18,7 +18,7 @@ export default function Revisor({page}){
                             <p>Проверено <b>{upd[number].revisor}</b></p>
                             <p>{upd[number].achievements}</p>
                         </div>
-                        <img src={doctor} style={{'border-radius' : '50%', 'max-height' : '10vw'}}></img>
+                        <img src={upd[number].photo} style={{'border-radius' : '50%', 'max-height' : '10vw'}}></img>
                     </div>
                     Дата последнего обновления статьи: {upd[number].date}
                     </div>

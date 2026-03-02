@@ -4,12 +4,12 @@ import Revisor from '../components/Revisor';
 import { Link } from 'react-router-dom';
 import '../../styles/DiseaseInfo.css';
 import hcmpvariants from '../../data/images/versions_illustration.png';
-import normal from '../../data/images/normalheart.png';
-import hcmp_heart from '../../data/images/heartwithhcmp.png';
+import normal from '../../data/images/normal_heart.png';
+import hcmp_heart from '../../data/images/HCM_pathogenesis.png';
 import EchoDoppler from '../../data/images/EchoDoppler.gif';
 import CTmotion from '../../data/images/CTmotion.gif';
 import Ventriculogramma from '../../data/images/ventriculogramm.gif';
-import heartsection from '../../data/images/heartsection.png';
+import heartsection from '../../data/images/hcmpheart.png';
 
 export default function WhatIsHCMP(){
     return (
@@ -20,6 +20,7 @@ export default function WhatIsHCMP(){
                     <div className="textHeaderGrey">
                         Что происходит с сердцем при ГКМП?
                     </div>
+                    <p></p>
                     <div className='textGrey'>
                         <div className="quoteStyle">
                         <h3 style={{'color' : '#5a5f91'}}><b>Этот текст поможет понять, как именно развивается болезнь. Он может показаться сложным,
@@ -155,14 +156,13 @@ export default function WhatIsHCMP(){
                     </div>
                     <img src={Ventriculogramma}></img>
                 </div>
-                <div className='textGrey'>
-                    <p>
+                <p>
                         Поздравляем Вас, Вы дочитали эту статью! Надеемся, что Вам будет понятнее, почему возникают те симптомы, которые, возможно, беспокоят Вас:
                     </p>
                     <button className="navButton">
                             <Link to={'/disease-info/symptoms'} className='navButtonLink'> Почитать про симптомы → </Link>
                     </button>
-                </div>
+                
                 </div>
                 </div>
                 <Revisor page='WhatIsHCMP' />
