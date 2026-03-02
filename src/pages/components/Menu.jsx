@@ -86,6 +86,7 @@ const HamburgerMenu = () => {
     { id: 4, label: 'Проекты', link: '/projects', subItems: [
         { id: 41, label: 'Дорожная карта', link: '/projects/map' },
         { id: 42, label: 'Регистр пациентов', link: '/projects/registr' },
+        { id: 43, label: 'Тест', link: '/projects/test' },
       ], },
     { id: 5, label: 'О сайте', link: '/about' },
   ];

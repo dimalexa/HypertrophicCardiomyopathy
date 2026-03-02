@@ -16,6 +16,7 @@ import Genetics from './pages/Diseaseinfo/Genetic';
 import Projects from './pages/Projects';
 import Map from './pages/Projects/Map';
 import Registr from './pages/Projects/Registr';
+import Test from './pages/Projects/Test';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="projects" element={<Projects />} />
         <Route path="projects/map" element={<Map />} />
         <Route path="projects/registr" element={<Registr />} />
+        <Route path="projects/test" element={<Test />} />
         <Route path="about" element={<About />} />
       </Routes>
     </HashRouter>

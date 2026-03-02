@@ -1,0 +1,138 @@
+/* Основной контейнер */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Прогресс */
+.progress-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.progress-bar-wrapper {
+  flex: 1;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #5a5f91;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Карточка вопроса */
+.question-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.question-card h3 {
+  margin-top: 0;
+}
+
+/* Варианты ответов */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.option-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  transition: background-color 0.2s;
+}
+
+.option-label:hover {
+  background-color: #f0f0f0;
+}
+
+/* Навигация */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #5a5f91;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #5a5f91;
+}
+
+.button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.finish-button {
+  background-color: #231d8d;
+}
+
+.finish-button:hover:not(:disabled) {
+  background-color: #231d8d;
+}
+
+/* Результаты */
+.results {
+  margin-top: 20px;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5a5f91;
+}
+
+.result-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result-item.correct {
+  background-color: #eaf7ed;
+  border-color: #c3e6cb;
+}
+
+.result-item.incorrect {
+  background-color: #dbdbdb;
+  border-color: #afaeae;
+}
+
+.correct-answer {
+  font-weight: 500;
+}
