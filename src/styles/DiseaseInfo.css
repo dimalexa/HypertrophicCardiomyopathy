@@ -259,7 +259,8 @@ a {
 }
 
 .imgMap {
-  width: 40vw;
+  max-width: 40vw;
+  object-fit: contain;
 }
 
 @media (max-width: 769px){
