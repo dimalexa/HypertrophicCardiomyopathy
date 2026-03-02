@@ -113,7 +113,9 @@ export default function Test(){
                     Далее →
                 </button>
                 )}
+                
             </div>
+            <p>Тест адаптирован <a href='https://hcmpatient.eu/ru/'>с европейского сайта поддержки пациентов с ГКМП</a> с разрешения обладателей сайта. Сайт загружается с ВПН.</p>
             </>
         ) : (
             // Блок результатов
@@ -150,6 +152,7 @@ export default function Test(){
             <button className="button" onClick={resetTest}>
                 Пройти заново
             </button>
+            <p>Тест адаптирован <a href='https://hcmpatient.eu/ru/'>с европейского сайта поддержки пациентов с ГКМП</a> с разрешения обладателей сайта. Сайт загружается с ВПН.</p>
             </div>
         )}
         

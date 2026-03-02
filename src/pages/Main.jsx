@@ -23,6 +23,10 @@ export default function Main(){
                         <button className="navButton">
                             <Link to={'/disease-info'} className='navButtonLink'> Что такое ГКМП → </Link>
                         </button>
+                        <p><b>А здесь можно пройти тест на знания о ГКМП:</b></p>
+                        <button className="navButton">
+                            <Link to={'/projects/test'} className='navButtonLink'> Тест → </Link>
+                        </button>
                     </div>
                     <div className='MainNews'>
                         <div className="MainNewsHeader">
