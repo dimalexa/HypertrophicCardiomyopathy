@@ -1,4 +1,4 @@
-questions = [
+export const questionslist = [
     {
         id: 1,
         question: `Что такое гипертрофическая кардиомиопатия?`,
