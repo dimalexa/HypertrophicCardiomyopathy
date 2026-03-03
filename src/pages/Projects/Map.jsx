@@ -78,10 +78,9 @@ export default function Map(){
                         <p>Составлен на основе публикационной активности.</p>
                         <div className="MainNewsText"> 
                             {doctors.map((item) => (
-                                <div style={{'border-bottom' : '1px solid rgb(216, 216, 221)', display : 'flex', flexDirection: 'row', 
-                                padding : '20px', gap: '5%'}}>
-                                        <img src={item.photo} style={{maxWidth : '100px', height: 'auto'}}></img>
-                                        <div> 
+                                <div className='cardDoctor'>
+                                        <img src={item.photo} className='photo'></img>
+                                        <div className='textDoctor'> 
                                             <h4>{item.name}</h4>
                                             <p>{item.specialization}</p>
                                         </div>
