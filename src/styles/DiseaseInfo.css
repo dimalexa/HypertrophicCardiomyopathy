@@ -398,6 +398,14 @@ a {
     width: auto;
   }
 
+  .cardDoctor{
+    flex-wrap: wrap;
+  }
+
+  .photo {
+    max-width: 10vw;
+  }
+
   .textDoctor {
     font-size: smaller;
   }
