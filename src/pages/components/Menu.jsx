@@ -69,26 +69,26 @@ const HamburgerMenu = () => {
 
   const menuItems = [
     { id: 1, label: 'Главная', link: '/' },
-    { id: 2, label: 'О болезни', link: '/disease-info', subItems: [
-        { id: 21, label: 'Немного о патогенезе', link: '/disease-info/what-is-hcm' },
-        { id: 22, label: 'Генетика', link: '/disease-info/genetics' },
-        { id: 23, label: 'Симптомы', link: '/disease-info/symptoms' },
-        { id: 24, label: 'Диагностика', link: '/disease-info/diagnosis' },
-        { id: 25, label: 'Течение болезни', link: '/disease-info/clinical-course' },
+    { id: 2, label: 'О сайте', link: '/about' },
+    { id: 3, label: 'О болезни', link: '/disease-info', subItems: [
+        { id: 31, label: 'Немного о патогенезе', link: '/disease-info/what-is-hcm' },
+        { id: 32, label: 'Генетика', link: '/disease-info/genetics' },
+        { id: 33, label: 'Симптомы', link: '/disease-info/symptoms' },
+        { id: 34, label: 'Диагностика', link: '/disease-info/diagnosis' },
+        { id: 35, label: 'Течение болезни', link: '/disease-info/clinical-course' },
       ], },
-    { id: 3, label: 'Жизнь с ГКМП', link: '/life', subItems: [
-        { id: 31, label: 'Принципы лечения', link: '/life/treatment' },
-        { id: 32, label: 'Терапия', link: '/life/medication' },
-        { id: 33, label: 'Операции', link: '/life/surgery' },
-        { id: 34, label: 'Имплантируемые устройства', link: '/life/devices' },
-        { id: 35, label: 'Истории пациентов', link: '/life/history' },
+    { id: 4, label: 'Жизнь с ГКМП', link: '/life', subItems: [
+        { id: 41, label: 'Принципы лечения', link: '/life/treatment' },
+        { id: 42, label: 'Терапия', link: '/life/medication' },
+        { id: 43, label: 'Операции', link: '/life/surgery' },
+        { id: 44, label: 'Имплантируемые устройства', link: '/life/devices' },
+        { id: 45, label: 'Истории пациентов', link: '/life/history' },
       ], },
-    { id: 4, label: 'Проекты', link: '/projects', subItems: [
-        { id: 41, label: 'Дорожная карта', link: '/projects/map' },
-        { id: 42, label: 'Регистр пациентов', link: '/projects/registr' },
-        { id: 43, label: 'Тест', link: '/projects/test' },
+    { id: 5, label: 'Проекты', link: '/projects', subItems: [
+        { id: 51, label: 'Дорожная карта', link: '/projects/map' },
+        { id: 52, label: 'Регистр пациентов', link: '/projects/registr' },
+        { id: 53, label: 'Тест', link: '/projects/test' },
       ], },
-    { id: 5, label: 'О сайте', link: '/about' },
   ];
 
   const handleSubItemClick = () => {
@@ -116,7 +116,9 @@ const HamburgerMenu = () => {
       <div className="nav-container">
         {/* Логотип */}
         <div className="nav-logo">
-          <Link to="/">ГКМП.Info</Link>
+          <Link to="/">ГКМП</Link>
+          <br></br>
+          Информация для пациентов с гипертрофической кардиомиопатией
         </div>
 
         {/* Гамбургер-иконка (только на мобильных) */}

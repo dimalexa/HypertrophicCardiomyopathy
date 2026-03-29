@@ -12,21 +12,23 @@ export default function Main(){
         <div >
             <HamburgerMenu />
             <div className='Main'>
-                <div className="MainBlock">
                     <div className='MainNav'>
-                        <p><b>Здравствуйте! Вы оказались на сайте, посвященном 
-                            информированию пациентов с гипертрофической кардиомиопатией.</b></p>
-                        <button className="navButton">
-                            <Link to={'/about'} className='navButtonLink'> О нас → </Link>
-                        </button>
-                        <p><b>Если Вы не знаете, откуда начать, начните отсюда:</b></p>
-                        <button className="navButton">
-                            <Link to={'/disease-info'} className='navButtonLink'> Что такое ГКМП → </Link>
-                        </button>
-                        <p><b>А здесь можно пройти тест на знания о ГКМП:</b></p>
-                        <button className="navButton">
-                            <Link to={'/projects/test'} className='navButtonLink'> Тест → </Link>
-                        </button>
+                        <div style={{borderLeft : '6px solid rgb(162, 170, 240)', padding : '0px 20px'}}>
+                            <h1><b>Мы хотим, чтобы информация была доступной и понятной</b></h1>
+                            <h3>И чтобы Вам не было грустно одним</h3>
+                        </div>
+                        <div style={{display : 'flex', flexDirection : 'row', gap : '20px', flexWrap : 'wrap'}}>
+                            <button className="navButton">
+                                <Link to={'/about'} className='navButtonLink'> О нас → </Link>
+                            </button>
+                            <button className="navButton">
+                                <Link to={'/disease-info'} className='navButtonLink'> Что такое ГКМП → </Link>
+                            </button>
+                            <button className="navButton">
+                                <Link to={'/projects/test'} className='navButtonLink'> Тест → </Link>
+                            </button>
+                        </div>
+                        
                     </div>
                     <div className='MainNews'>
                         <div className="MainNewsHeader">
@@ -42,7 +44,6 @@ export default function Main(){
                             ))}
                         </div>
                     </div>
-                </div>
             </div>
             <Contacts />
         </div>

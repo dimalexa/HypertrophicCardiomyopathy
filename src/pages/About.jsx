@@ -21,9 +21,9 @@ export default function About(){
                         Искренне надеемся, что это поможет Вам или Вашим близким!
                     </p>
                      <p>
-                        Сайт написан на основе действующих клинических рекомендаций - <a href='https://cr.minzdrav.gov.ru/view-cr/283_2'>Российского кардиологического общества (2025)</a>, 
-                        <a href='https://www.ahajournals.org/doi/10.1161/CIR.0000000000001250'>AHA (2024)</a>,   
-                        <a href='https://academic.oup.com/eurheartj/article/44/37/3503/7246608'>ESC (2023)</a>.
+                        Сайт написан на основе действующих клинических рекомендаций - <a href='https://cr.minzdrav.gov.ru/view-cr/283_2' target="_blank">Российского кардиологического общества (2025)</a>, 
+                        <a href='https://www.ahajournals.org/doi/10.1161/CIR.0000000000001250' target="_blank">AHA (2024)</a>,   
+                        <a href='https://academic.oup.com/eurheartj/article/44/37/3503/7246608' target="_blank">ESC (2023)</a>.
                     </p>
                     <p>
                         Также идейным вдохновением послужил сайт <a href='https://www.4hcm.org/'>HCMA (Hypertrophic Cardiomyopathy Association)</a>.

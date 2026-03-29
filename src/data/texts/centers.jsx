@@ -15,6 +15,7 @@ import SinitsinVE from '../images/SinitsinVE.jpg';
 import KoretskiySN from '../images/KoretskiySN.jpg';
 import GandayevaLA from '../images/GandayevaLA.jpg';
 import BasarginaEN from '../images/BasarginaEN.jpg';
+import NasonovaSN from '../images/NasonovaSN.png';
 
 
 export const centers = [
@@ -52,11 +53,11 @@ export const doctors = [
         photo: ChumakovaOS
     },
     {
-        id: 1,
-        name: 'Берсенёва Марина Ивановна',
-        specialization: 'Врач кардиолог, младший научный сотрудник группы по изучению сердечной недостаточности и вспомогательных систем кровообращения, доцент кафедры, кандидат медицинских наук',
+        id: 17,
+        name: 'Насонова Светлана Николаевна',
+        specialization: 'Старший научный сотрудник Отдела заболеваний миокарда и сердечной недостаточности, врач-кардиолог высшей квалификационной категории, кандидат медицинских наук',
         city: 'Москва',
-        photo: BersenevaMI
+        photo: NasonovaSN
     },
     {
         id: 2,

@@ -27,7 +27,7 @@ export default function Map(){
                                 <h3>НМИЦ сердечно-сосудистой хирургии им. А. Н. Бакулева, кардиохирургическое отделение № 15.</h3>
                             </p>
                              <button className="navButton">
-                                <a href='https://bakulev.ru/about/structure/subdivision/otdelenie-khirurgicheskogo-lecheniya-kardiomiopatiy/' className='navButtonLink'> Страница отделения → </a>
+                                <a href='https://bakulev.ru/about/structure/subdivision/otdelenie-khirurgicheskogo-lecheniya-kardiomiopatiy/' className='navButtonLink' target="_blank"> Страница отделения → </a>
                             </button>
                         </div>
                         <img src={bakulev} className='imgMap'></img>
@@ -39,7 +39,7 @@ export default function Map(){
                                 сердечной недостаточности) в Российском научном центре хирургии им. Б.В. Петровского.</h3>
                             </p>
                              <button className="navButton">
-                                <a href='https://med.ru/departments/otdelenie-khirurgicheskogo-lecheniya-disfunktsiy-miokarda-i-serdechnoy-nedostatochnosti-ii-kardiokhi/' className='navButtonLink'> Страница отделения → </a>
+                                <a href='https://med.ru/departments/otdelenie-khirurgicheskogo-lecheniya-disfunktsiy-miokarda-i-serdechnoy-nedostatochnosti-ii-kardiokhi/' className='navButtonLink' target="_blank"> Страница отделения → </a>
                             </button>
                         </div>
                         <img src={petrovskogo} className='imgMap'></img>
@@ -53,7 +53,7 @@ export default function Map(){
                                 </h3>
                             </p>
                              <button className="navButton">
-                                <a href='https://www.cardio.ru/about/institut-klinicheskoj-kardiologii/departments/9-oe-klinicheskoe-otdelenie/' className='navButtonLink'> Страница отделения → </a>
+                                <a href='https://www.cardio.ru/about/institut-klinicheskoj-kardiologii/departments/9-oe-klinicheskoe-otdelenie/' className='navButtonLink' target="_blank"> Страница отделения → </a>
                             </button>
                         </div>
                         <img src={chazova} className='imgMap'></img>
@@ -66,7 +66,7 @@ export default function Map(){
                                 </h3>
                             </p>
                              <button className="navButton">
-                                <a href='https://fnkc-fmba.ru/otdeleniya/terapevticheskiy-profil/kardiokhirurgicheskoe-otdelenie/' className='navButtonLink'> Страница отделения → </a>
+                                <a href='https://fnkc-fmba.ru/otdeleniya/terapevticheskiy-profil/kardiokhirurgicheskoe-otdelenie/' className='navButtonLink' target="_blank"> Страница отделения → </a>
                             </button>
                         </div>
                         <img src={fmba} className='imgMap'></img>

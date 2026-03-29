@@ -19,14 +19,21 @@
 }
 
 .MainNav {
-  width: calc(50vw - 20%);
-  height: 100vh;
+  width: calc(100vw - 20%);
   background: #5a5f91;
-  background-image: url('../data/images/backgrounddarkend.jpg');
-  background-size: cover;
+  background-image: url('../data/images/background-darken.png');
+  background-size: 100vw;
   color: white;
   min-height: 100vh;
   padding: 20px 10% 0% 10%;
+}
+
+.MainNav h1 {
+  font-size: 50px;
+}
+
+.MainNav h3 {
+  font-size: 25px;
 }
 
 .MainNews {
@@ -67,7 +74,11 @@
   word-wrap: break-word;
   overflow-wrap: break-word;
   background-color: grey;
-  text-align: center;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .block-text{
@@ -81,7 +92,7 @@
   font-weight: bold;
   padding: 15px 0px 15px 0px;
   font-family: "Open Sans", "CMU Modern Serif Roman", "CMU Modern Sans Serif", "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .line {
@@ -111,6 +122,10 @@
 
 .linkStyle {
   color: #bdc1ef;
+}
+
+.linkStyle:hover {
+  color: white;
 }
 
 .navButton {
@@ -145,6 +160,14 @@
   .MainNav {
   width: calc(100vw - 20%);
   height: 100vh;
+  }
+
+  .MainNav h1 {
+  font-size: 30px;
+  }
+
+  .MainNav h3 {
+    font-size: 18px;
   }
 
   .MainNews {
