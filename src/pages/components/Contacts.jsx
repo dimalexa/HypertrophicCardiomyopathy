@@ -7,7 +7,7 @@ import telega from '../../data/images/telegramm.png';
 export default function Contacts() {
     return (
         <div className="block">
-            <img src={logo} style={{height : '200px', alignSelf : 'center'}}></img>
+            <img src={logo} style={{maxHeight : '200px', alignSelf : 'center', objectFit : 'contain'}}></img>
             <div>
                 <div className="block-header">
                     Меню

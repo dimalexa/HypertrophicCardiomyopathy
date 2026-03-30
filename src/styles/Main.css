@@ -84,14 +84,14 @@
 
 .block-text{
   color: white;
-  padding: 0px 0px 15px 0px;
+  padding: 0px 10px 15px 10px;
   font-family: "Open Sans", "CMU Modern Serif Roman", "CMU Modern Sans Serif", "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
 }
 
 .block-header{
   color: white;
   font-weight: bold;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 10px 15px 10px;
   font-family: "Open Sans", "CMU Modern Serif Roman", "CMU Modern Sans Serif", "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
   font-size: 25px;
 }
@@ -171,7 +171,7 @@
   }
 
   .MainNav h1 {
-  font-size: 30px;
+  font-size: 25px;
   }
 
   .MainNav h3 {
@@ -185,6 +185,10 @@
 
   .block-header{
   font-size: 20px;
+  }
+  
+  .block{
+    justify-content: flex-start;
   }
 }
 

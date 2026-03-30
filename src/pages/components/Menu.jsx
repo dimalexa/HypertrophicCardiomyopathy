@@ -198,8 +198,13 @@ const HamburgerMenu = () => {
               )}
             </li>
           ))}
+          <li>
+            <div style={{display : 'flex', gap : '20px', padding: '10px'}}>
+                  <a href='https://t.me/GKMPchat' className='linkStyle' target="_blank"><img src={telega} style={{'width' : '30px'}}></img></a>
+                  <a href='https://vk.com/club149728136' className='linkStyle' target="_blank"><img src={vk} style={{'width' : '30px'}}></img></a>
+            </div>
+          </li>
         </ul>
-        <p><i class="bi bi-envelope-at-fill" style={{'font-size' : '24px', 'color': 'black'}}></i> <b>: gkmp-info@yandex.com</b></p>
       </div>
       
     </nav>
