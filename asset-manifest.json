@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HypertrophicCardiomyopathy/static/css/main.861c71e9.css",
-    "main.js": "/HypertrophicCardiomyopathy/static/js/main.29e1b96a.js",
+    "main.css": "/HypertrophicCardiomyopathy/static/css/main.da36674b.css",
+    "main.js": "/HypertrophicCardiomyopathy/static/js/main.9d6dce29.js",
     "static/js/453.7204c632.chunk.js": "/HypertrophicCardiomyopathy/static/js/453.7204c632.chunk.js",
     "static/media/ventriculogramm.gif": "/HypertrophicCardiomyopathy/static/media/ventriculogramm.4cc40992f3bf063c48a8.gif",
     "static/media/CTmotion.gif": "/HypertrophicCardiomyopathy/static/media/CTmotion.cfcfbddda8c78d4a3295.gif",
@@ -17,7 +17,6 @@
     "static/media/petrovskogo.png": "/HypertrophicCardiomyopathy/static/media/petrovskogo.85780ebadf346dae40ec.png",
     "static/media/EchoDoppler.gif": "/HypertrophicCardiomyopathy/static/media/EchoDoppler.082cb8f958b8ca5064d5.gif",
     "static/media/doctor.jpg": "/HypertrophicCardiomyopathy/static/media/doctor.9320e6dad4e64b896a98.jpg",
-    "static/media/heart (2).png": "/HypertrophicCardiomyopathy/static/media/heart (2).dccb058b828795d21db6.png",
     "static/media/worldmap.jpg": "/HypertrophicCardiomyopathy/static/media/worldmap.bc9963efd407583360d7.jpg",
     "static/media/bakulev.jpg": "/HypertrophicCardiomyopathy/static/media/bakulev.69f97672cfc8d45b393d.jpg",
     "static/media/heartforlink.jpg": "/HypertrophicCardiomyopathy/static/media/heartforlink.aa418179936e188c4c78.jpg",
@@ -44,6 +43,7 @@
     "static/media/dyspnea.jpg": "/HypertrophicCardiomyopathy/static/media/dyspnea.123cb294fc5d4860574a.jpg",
     "static/media/syncope.jpg": "/HypertrophicCardiomyopathy/static/media/syncope.ae5909cffb3499b90633.jpg",
     "static/media/BersenevaMI.jpg": "/HypertrophicCardiomyopathy/static/media/BersenevaMI.49e7e30a9d82f78b8053.jpg",
+    "static/media/logo.png": "/HypertrophicCardiomyopathy/static/media/logo.33aac45c22f50e181e20.png",
     "static/media/stenokardiya.jpg": "/HypertrophicCardiomyopathy/static/media/stenokardiya.061e60b2898ade69a575.jpg",
     "static/media/devicesforlink.jpg": "/HypertrophicCardiomyopathy/static/media/devicesforlink.d557683aa5fa5c8d124c.jpg",
     "static/media/PrivalovaEV.jpg": "/HypertrophicCardiomyopathy/static/media/PrivalovaEV.b336f5189975a66fbe3c.jpg",
@@ -70,12 +70,12 @@
     "static/media/KulikovaOV.jpg": "/HypertrophicCardiomyopathy/static/media/KulikovaOV.6c94a3d1d73973a3997a.jpg",
     "static/media/ECS.jpg": "/HypertrophicCardiomyopathy/static/media/ECS.ee6cc2351f6f9b139e85.jpg",
     "index.html": "/HypertrophicCardiomyopathy/index.html",
-    "main.861c71e9.css.map": "/HypertrophicCardiomyopathy/static/css/main.861c71e9.css.map",
-    "main.29e1b96a.js.map": "/HypertrophicCardiomyopathy/static/js/main.29e1b96a.js.map",
+    "main.da36674b.css.map": "/HypertrophicCardiomyopathy/static/css/main.da36674b.css.map",
+    "main.9d6dce29.js.map": "/HypertrophicCardiomyopathy/static/js/main.9d6dce29.js.map",
     "453.7204c632.chunk.js.map": "/HypertrophicCardiomyopathy/static/js/453.7204c632.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.861c71e9.css",
-    "static/js/main.29e1b96a.js"
+    "static/css/main.da36674b.css",
+    "static/js/main.9d6dce29.js"
   ]
 }
