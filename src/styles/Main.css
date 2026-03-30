@@ -3,7 +3,7 @@
 }
 
 .Main{
-  margin-top: 70px;
+  margin-top: 110px;
   word-wrap: break-word;
   font-family: "Open Sans", "CMU Modern Serif Roman", "Montserrat Alternates", "Helvetica", "Arial", sans-serif;
 }
@@ -19,13 +19,14 @@
 }
 
 .MainNav {
-  width: calc(100vw - 20%);
+  width: auto;
   background: #5a5f91;
   background-image: url('../data/images/background-darken.png');
-  background-size: 100vw;
+  background-size:  calc(100vw - 20%);
   color: white;
-  min-height: 100vh;
-  padding: 20px 10% 0% 10%;
+  min-height: calc(100vh - 70px);
+  padding: 0% 10% 0% 10%;
+  align-content: center;
 }
 
 .MainNav h1 {
@@ -38,7 +39,7 @@
 
 .MainNews {
   min-height: 100vh;
-  width: calc(50vw - 10%);
+  width: calc(100vw - 20%);
   padding: 20px 5% 0% 5%;
 
 }
@@ -152,14 +153,21 @@
   color: white;
 }
 
+.buttonNonActive {
+  padding: 8px 30px;
+  border: 1px solid #969696;
+  color: #919192;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-family: "Open Sans", "CMU Modern Serif Roman";
+  background: white;
+}
+
 @media (max-width: 769px){
   .MainBlock {
   flex-direction: column;
-  }
-
-  .MainNav {
-  width: calc(100vw - 20%);
-  height: 100vh;
   }
 
   .MainNav h1 {

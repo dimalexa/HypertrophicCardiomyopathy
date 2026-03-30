@@ -14,8 +14,8 @@ export default function Main(){
             <div className='Main'>
                     <div className='MainNav'>
                         <div style={{borderLeft : '6px solid rgb(162, 170, 240)', padding : '0px 20px'}}>
-                            <h1><b>Мы хотим, чтобы информация была доступной и понятной</b></h1>
-                            <h3>И чтобы Вам не было грустно одним</h3>
+                            <h1><b>Понятная информация о гипертрофической кардиомиопатии</b></h1>
+                            <h3>Надеемся, этот сайт поможет Вам в жизни с непростым заболеванием.</h3>
                         </div>
                         <div style={{display : 'flex', flexDirection : 'row', gap : '20px', flexWrap : 'wrap'}}>
                             <button className="navButton">
@@ -25,7 +25,7 @@ export default function Main(){
                                 <Link to={'/disease-info'} className='navButtonLink'> Что такое ГКМП → </Link>
                             </button>
                             <button className="navButton">
-                                <Link to={'/projects/test'} className='navButtonLink'> Тест → </Link>
+                                <Link to={'/projects/test'} className='navButtonLink'> Тест на знания о ГКМП → </Link>
                             </button>
                         </div>
                         

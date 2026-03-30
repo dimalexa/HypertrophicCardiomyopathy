@@ -1,5 +1,5 @@
 import '../../styles/Main.css';
-import heart from '../../data/images/heart (2).png';
+import logo from '../../data/images/logo.png';
 import { Link } from 'react-router-dom';
 import vk from '../../data/images/vk.png';
 import telega from '../../data/images/telegramm.png';
@@ -7,7 +7,7 @@ import telega from '../../data/images/telegramm.png';
 export default function Contacts() {
     return (
         <div className="block">
-            <img src={heart} style={{width : '20vw', height : 'auto'}}></img>
+            <img src={logo} style={{height : '200px', alignSelf : 'center'}}></img>
             <div>
                 <div className="block-header">
                     Меню
@@ -33,8 +33,12 @@ export default function Contacts() {
                         </div>
                         <div>
 
-                            
                     </div>
+            </div>
+            <div style={{color : '#bdc1ef', fontSize : '12px', padding : '50px 5% 20px 5%'}}>
+                Данный сайт является информационным ресурсом, предоставляющим справочные материалы. 
+                Информация носит ознакомительный характер, не является рекомендацией, рекламой или призывом к действиям. 
+                Пользователи самостоятельно несут ответственность за принятые решения на основе размещенных данных.
             </div>
                     
         </div>  

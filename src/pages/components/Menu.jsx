@@ -1,6 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../../styles/Menu.css';
+import logo from '../../data/images/logo.png';
+import vk from '../../data/images/vk.png';
+import telega from '../../data/images/telegramm.png';
+import '../../styles/Main.css';
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -116,9 +120,7 @@ const HamburgerMenu = () => {
       <div className="nav-container">
         {/* Логотип */}
         <div className="nav-logo">
-          <Link to="/">ГКМП</Link>
-          <br></br>
-          Информация для пациентов с гипертрофической кардиомиопатией
+          <Link to="/"><img src={logo} style={{'height' : '100px'}}></img></Link>
         </div>
 
         {/* Гамбургер-иконка (только на мобильных) */}
@@ -197,7 +199,9 @@ const HamburgerMenu = () => {
             </li>
           ))}
         </ul>
+        <p><i class="bi bi-envelope-at-fill" style={{'font-size' : '24px', 'color': 'black'}}></i> <b>: gkmp-info@yandex.com</b></p>
       </div>
+      
     </nav>
   );
 };
