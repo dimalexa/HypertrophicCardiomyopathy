@@ -12,7 +12,7 @@ import syncope from "../../data/images/syncope.jpg";
 import seekness from "../../data/images/seekness.jpg";
 import normal from '../images/normalheart.png';
 import hcmp_heart from '../images/hcmp_heart.png';
-import sarcomere from '../images/sarcomere.png';
+import gentest from '../images/gentest.jpg';
 
 export const dataSymptoms = [
     {
@@ -209,6 +209,6 @@ export const dataSymptoms = [
         </p>
       </div>,
       category: "Инструментальные исследования",
-      img: sarcomere
+      img: gentest
     }
   ];
