@@ -245,7 +245,7 @@
   /* Мобильное меню */
   .nav-menu {
     position: fixed;
-    top: 70px;
+    top: 110px;
     left: 0;
     right: 0;
     background-color: white;
@@ -257,7 +257,7 @@
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 110px);
     overflow-y: auto;
   }
 
